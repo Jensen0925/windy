@@ -1,0 +1,106 @@
+name: china-weather
+
+services:
+  postgres:
+    image: postgis/postgis:16-3.5
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-weather}
+      POSTGRES_USER: ${POSTGRES_USER:-weather}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weather}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./postgres/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+    networks:
+      - weather
+
+  valkey:
+    image: valkey/valkey:8-alpine
+    restart: unless-stopped
+    command:
+      - valkey-server
+      - --appendonly
+      - "yes"
+      - --save
+      - "60"
+      - "1000"
+    ports:
+      - "${VALKEY_PORT:-6379}:6379"
+    volumes:
+      - valkey-data:/data
+    healthcheck:
+      test: ["CMD", "valkey-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      - weather
+
+  minio:
+    image: minio/minio:latest
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-weather}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-weather-development-secret}
+    ports:
+      - "${MINIO_API_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+    volumes:
+      - minio-data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 10s
+    networks:
+      - weather
+
+  minio-init:
+    image: minio/mc:latest
+    restart: "no"
+    depends_on:
+      minio:
+        condition: service_healthy
+    environment:
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-weather}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-weather-development-secret}
+      MINIO_BUCKET: ${MINIO_BUCKET:-weather-data}
+    volumes:
+      - ./minio/init-buckets.sh:/usr/local/bin/init-buckets.sh:ro
+    entrypoint: ["/bin/sh", "/usr/local/bin/init-buckets.sh"]
+    networks:
+      - weather
+
+  processor:
+    profiles: ["tools"]
+    build:
+      context: ../services/process
+    environment:
+      PROCESS_MODEL: ${PROCESS_MODEL:-auto}
+      CHINA_BBOX: ${CHINA_BBOX:-73,3,136,54}
+    volumes:
+      - ${PROCESS_DATA_DIR:-./data}:/data
+    entrypoint: ["/opt/weather/bin/process-grib.sh"]
+    command: ["--help"]
+    networks:
+      - weather
+
+volumes:
+  postgres-data:
+  valkey-data:
+  minio-data:
+
+networks:
+  weather:
+    driver: bridge
