@@ -1,0 +1,20 @@
+{
+  "name": "@china-weather/ingest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts --dry-run",
+    "build": "bun build src/index.ts --outdir dist --target bun --packages external",
+    "start": "bun dist/index.js",
+    "lint": "biome check src",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@china-weather/weather": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
