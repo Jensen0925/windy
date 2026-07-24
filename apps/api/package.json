@@ -1,0 +1,25 @@
+{
+  "name": "@china-weather/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/main.ts",
+    "build": "bun build src/main.ts --outdir dist --target bun --packages external",
+    "start": "bun dist/main.js",
+    "lint": "biome check src",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@china-weather/weather": "workspace:*",
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
+    "@nestjs/platform-express": "latest",
+    "reflect-metadata": "latest",
+    "rxjs": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
