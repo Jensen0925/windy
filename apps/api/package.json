@@ -12,6 +12,7 @@
     "test": "bun test"
   },
   "dependencies": {
+    "@china-weather/locations": "workspace:*",
     "@china-weather/weather": "workspace:*",
     "@nestjs/common": "latest",
     "@nestjs/core": "latest",

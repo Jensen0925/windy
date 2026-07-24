@@ -17,6 +17,7 @@
       "name": "@china-weather/api",
       "version": "0.1.0",
       "dependencies": {
+        "@china-weather/locations": "workspace:*",
         "@china-weather/weather": "workspace:*",
         "@nestjs/common": "latest",
         "@nestjs/core": "latest",
@@ -42,6 +43,7 @@
       "name": "@china-weather/web",
       "version": "0.1.0",
       "dependencies": {
+        "@china-weather/locations": "workspace:*",
         "lucide-react": "1.26.0",
         "maplibre-gl": "5.24.0",
         "next": "16.2.9",
@@ -70,6 +72,10 @@
         "@types/pg": "latest",
         "drizzle-kit": "latest",
       },
+    },
+    "packages/locations": {
+      "name": "@china-weather/locations",
+      "version": "0.1.0",
     },
     "packages/ui": {
       "name": "@china-weather/ui",

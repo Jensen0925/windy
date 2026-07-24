@@ -1,5 +1,6 @@
 "use client";
 
+import { getMapLocationById, type MapLocation } from "@china-weather/locations/map";
 import maplibregl, { type GeoJSONSource, type Map as MapLibreMap } from "maplibre-gl";
 import { useEffect, useRef } from "react";
 import {
@@ -19,6 +20,7 @@ interface WeatherMapProps {
   timeStep: number;
   selectedPoint: [number, number];
   onSelectPoint: (point: [number, number]) => void;
+  onSelectCity: (city: MapLocation) => void;
   onMapReady: (map: MapLibreMap | null) => void;
 }
 
@@ -33,15 +35,18 @@ export function WeatherMap({
   timeStep,
   selectedPoint,
   onSelectPoint,
+  onSelectCity,
   onMapReady,
 }: WeatherMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
-  const callbackRef = useRef(onSelectPoint);
+  const pointCallbackRef = useRef(onSelectPoint);
+  const cityCallbackRef = useRef(onSelectCity);
+  const renderStateRef = useRef({ activeLayer, model, timeStep, selectedPoint });
 
-  useEffect(() => {
-    callbackRef.current = onSelectPoint;
-  }, [onSelectPoint]);
+  pointCallbackRef.current = onSelectPoint;
+  cityCallbackRef.current = onSelectCity;
+  renderStateRef.current = { activeLayer, model, timeStep, selectedPoint };
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -51,7 +56,7 @@ export function WeatherMap({
       center: [104.5, 35.2],
       zoom: 3.25,
       minZoom: 2.7,
-      maxZoom: 8,
+      maxZoom: 9,
       maxBounds: [
         [66, 8],
         [143, 61],
@@ -77,6 +82,7 @@ export function WeatherMap({
     onMapReady(map);
 
     map.on("load", () => {
+      const current = renderStateRef.current;
       map.addSource("countries", { type: "geojson", data: countries });
       map.addSource("china", {
         type: "geojson",
@@ -85,7 +91,7 @@ export function WeatherMap({
       map.addSource("graticule", { type: "geojson", data: createGraticule() });
       map.addSource("weather", {
         type: "geojson",
-        data: createWeatherGrid(activeLayer, timeStep, model),
+        data: createWeatherGrid(current.activeLayer, current.timeStep, current.model),
       });
       map.addSource("cities", { type: "geojson", data: cities });
       map.addSource("selected-point", {
@@ -93,7 +99,7 @@ export function WeatherMap({
         data: {
           type: "Feature",
           properties: {},
-          geometry: { type: "Point", coordinates: selectedPoint },
+          geometry: { type: "Point", coordinates: current.selectedPoint },
         },
       });
 
@@ -138,7 +144,7 @@ export function WeatherMap({
         id: "weather-field",
         type: "circle",
         source: "weather",
-        paint: getWeatherPaint(activeLayer),
+        paint: getWeatherPaint(current.activeLayer),
       });
       map.addLayer({
         id: "china-outline-glow",
@@ -164,9 +170,10 @@ export function WeatherMap({
         type: "circle",
         source: "cities",
         paint: {
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 2.2, 6, 4],
-          "circle-color": "#e7ffff",
-          "circle-stroke-color": "rgba(8, 19, 28, 0.85)",
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 2, 6, 3.6, 9, 5],
+          "circle-color": ["match", ["get", "level"], "province", "#69f3d0", "#e7ffff"],
+          "circle-opacity": ["interpolate", ["linear"], ["zoom"], 3, 0.58, 5, 0.9],
+          "circle-stroke-color": "rgba(8, 19, 28, 0.9)",
           "circle-stroke-width": 1.4,
         },
       });
@@ -193,12 +200,33 @@ export function WeatherMap({
         },
       });
 
+      const showCityPointer = () => {
+        map.getCanvas().style.cursor = "pointer";
+      };
+      const hideCityPointer = () => {
+        map.getCanvas().style.cursor = "crosshair";
+      };
+      map.on("mouseenter", "city-points", showCityPointer);
+      map.on("mouseleave", "city-points", hideCityPointer);
       addCityLabels(map);
     });
 
     map.on("click", (event) => {
+      const interactiveLayers = ["city-points"].filter((id) => map.getLayer(id));
+      if (interactiveLayers.length > 0) {
+        const cityFeature = map.queryRenderedFeatures(event.point, {
+          layers: interactiveLayers,
+        })[0];
+        const locationId = cityFeature?.properties?.id;
+        const location = locationId ? getMapLocationById(String(locationId)) : undefined;
+        if (location) {
+          cityCallbackRef.current(location);
+          return;
+        }
+      }
+
       const point: [number, number] = [event.lngLat.lng, event.lngLat.lat];
-      if (isInsideChina(point)) callbackRef.current(point);
+      if (isInsideChina(point)) pointCallbackRef.current(point);
     });
 
     return () => {
@@ -206,7 +234,7 @@ export function WeatherMap({
       map.remove();
       mapRef.current = null;
     };
-  }, [model, timeStep, selectedPoint, onMapReady, activeLayer]);
+  }, [onMapReady]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -273,14 +301,12 @@ function getWeatherPaint(
 
 function addCityLabels(map: MapLibreMap) {
   for (const city of cities.features) {
-    if (city.geometry.type !== "Point") continue;
-    const coordinates = city.geometry.coordinates as [number, number];
-    const name = String(city.properties?.name ?? "");
+    if (!city.properties.showLabel) continue;
     const element = document.createElement("div");
     element.className = "city-label";
-    element.textContent = name;
+    element.textContent = city.properties.name;
     new maplibregl.Marker({ element, anchor: "left", offset: [7, -1] })
-      .setLngLat(coordinates)
+      .setLngLat(city.geometry.coordinates as [number, number])
       .addTo(map);
   }
 }

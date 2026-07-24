@@ -163,6 +163,204 @@ button:focus-visible {
   white-space: nowrap;
 }
 
+.city-search {
+  position: absolute;
+  z-index: 13;
+  top: 102px;
+  left: 50%;
+  width: min(390px, calc(100vw - 560px));
+  min-width: 330px;
+  transform: translateX(-50%);
+}
+
+.city-search-field {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 11px 0 14px;
+  border-radius: 11px;
+  color: #78979b;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.city-search-field.is-open,
+.city-search-field:focus-within {
+  border-color: rgba(105, 243, 208, 0.34);
+  background: linear-gradient(145deg, rgba(11, 32, 41, 0.97), rgba(5, 18, 26, 0.94));
+  box-shadow:
+    0 20px 50px rgba(0, 4, 10, 0.5),
+    0 0 0 3px rgba(105, 243, 208, 0.06);
+}
+
+.city-search-field > svg:first-child {
+  flex: 0 0 auto;
+  color: var(--mint);
+}
+
+.city-search-field input {
+  min-width: 0;
+  flex: 1;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  color: #e7fbf8;
+  background: transparent;
+  font-size: 12px;
+}
+
+.city-search-field input::placeholder {
+  color: #617d82;
+}
+
+.city-search-field input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.city-search-hint {
+  padding: 3px 6px;
+  border: 1px solid rgba(138, 187, 184, 0.13);
+  border-radius: 5px;
+  color: #607c80;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 8px;
+  letter-spacing: 0.08em;
+}
+
+.city-search-clear {
+  width: 27px;
+  height: 27px;
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  color: #779499;
+  background: rgba(255, 255, 255, 0.035);
+  cursor: pointer;
+}
+
+.city-search-clear:hover {
+  color: var(--mint);
+  background: rgba(105, 243, 208, 0.09);
+}
+
+.city-search-spinner {
+  flex: 0 0 auto;
+  color: var(--mint);
+  animation: orbit 0.75s linear infinite;
+}
+
+.city-search-results {
+  margin-top: 7px;
+  max-height: min(430px, calc(100dvh - 185px));
+  overflow: hidden auto;
+  border-radius: 11px;
+}
+
+.city-search-results [role="listbox"] {
+  display: grid;
+  gap: 0;
+  padding: 5px;
+}
+
+.city-search-results [role="option"] {
+  width: 100%;
+  min-height: 54px;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 9px;
+  border: 0;
+  border-radius: 8px;
+  color: #9bb4b7;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    color 150ms ease,
+    background 150ms ease;
+}
+
+.city-search-results [role="option"]:hover,
+.city-search-results [role="option"].is-active {
+  color: #eafff9;
+  background: linear-gradient(90deg, rgba(105, 243, 208, 0.12), rgba(105, 243, 208, 0.035));
+}
+
+.city-result-icon {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(105, 243, 208, 0.16);
+  border-radius: 7px;
+  color: var(--mint);
+  background: rgba(105, 243, 208, 0.06);
+}
+
+.city-result-copy {
+  min-width: 0;
+}
+
+.city-result-copy strong,
+.city-result-copy small {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.city-result-copy strong {
+  color: inherit;
+  font-size: 12px;
+  font-weight: 680;
+}
+
+.city-result-copy small {
+  margin-top: 4px;
+  color: #647f84;
+  font-size: 9px;
+}
+
+.city-result-code {
+  color: #526d72;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 8px;
+}
+
+.city-search-state {
+  min-height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 14px;
+  color: #789499;
+  font-size: 11px;
+  text-align: center;
+}
+
+.city-search-state.is-error {
+  color: #e5a6ad;
+}
+
+.city-search-state button {
+  padding: 4px 7px;
+  border: 1px solid rgba(105, 243, 208, 0.18);
+  border-radius: 5px;
+  color: var(--mint);
+  background: rgba(105, 243, 208, 0.06);
+  font-size: 9px;
+  cursor: pointer;
+}
+
 .topbar {
   position: absolute;
   z-index: 10;
@@ -1004,6 +1202,12 @@ button:focus-visible {
 }
 
 @media (max-width: 1060px) {
+  .city-search {
+    top: 132px;
+    width: min(390px, calc(100vw - 340px));
+    min-width: 320px;
+  }
+
   .topbar {
     grid-template-columns: 1fr auto;
   }
@@ -1030,6 +1234,23 @@ button:focus-visible {
 }
 
 @media (max-width: 760px) {
+  .city-search {
+    top: 166px;
+    width: auto;
+    min-width: 0;
+    right: 10px;
+    left: 10px;
+    transform: none;
+  }
+
+  .city-search-field {
+    height: 42px;
+  }
+
+  .city-search-results {
+    max-height: min(310px, calc(100dvh - 224px));
+  }
+
   .weather-app {
     min-height: 560px;
   }
@@ -1231,6 +1452,22 @@ button:focus-visible {
 }
 
 @media (max-width: 420px) {
+  .city-search-field input {
+    font-size: 11px;
+  }
+
+  .city-search-field input::placeholder {
+    font-size: 10px;
+  }
+
+  .city-result-code {
+    display: none;
+  }
+
+  .city-search-results [role="option"] {
+    grid-template-columns: 30px minmax(0, 1fr);
+  }
+
   .layer-copy strong {
     display: none;
   }

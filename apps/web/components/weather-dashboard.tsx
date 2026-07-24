@@ -27,6 +27,8 @@ import {
 import type { Map as MapLibreMap } from "maplibre-gl";
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useRef, useState } from "react";
+import type { SelectedLocation } from "@/lib/cities";
+import { getDefaultCity, getLocationPoint, getLocationZoom } from "@/lib/cities";
 import type { ForecastModel, WeatherLayer } from "@/lib/weather";
 import {
   CHINA_BOUNDS,
@@ -36,6 +38,7 @@ import {
   getLayerValue,
   WEATHER_LAYERS,
 } from "@/lib/weather";
+import { CitySearch } from "./city-search";
 
 const WeatherMap = dynamic(() => import("./weather-map").then((module) => module.WeatherMap), {
   ssr: false,
@@ -54,15 +57,10 @@ const LAYER_ICONS: Record<WeatherLayer, LucideIcon> = {
   irradiance: Sun,
 };
 
-const PLACES = [
-  { name: "北京", point: [116.41, 39.9] as [number, number] },
-  { name: "上海", point: [121.47, 31.23] as [number, number] },
-  { name: "广州", point: [113.26, 23.13] as [number, number] },
-  { name: "成都", point: [104.07, 30.67] as [number, number] },
-  { name: "武汉", point: [114.31, 30.59] as [number, number] },
-  { name: "西安", point: [108.94, 34.34] as [number, number] },
-  { name: "拉萨", point: [91.11, 29.65] as [number, number] },
-];
+const DEFAULT_CITY = getDefaultCity();
+const DEFAULT_POINT: [number, number] = DEFAULT_CITY
+  ? getLocationPoint(DEFAULT_CITY)
+  : [116.41, 39.9];
 
 function getForecastStart() {
   const now = new Date();
@@ -75,7 +73,8 @@ export function WeatherDashboard() {
   const [activeLayer, setActiveLayer] = useState<WeatherLayer>("wind");
   const [model, setModel] = useState<ForecastModel>("ECMWF");
   const [timeStep, setTimeStep] = useState(1);
-  const [selectedPoint, setSelectedPoint] = useState<[number, number]>([116.41, 39.9]);
+  const [selectedCity, setSelectedCity] = useState<SelectedLocation | null>(DEFAULT_CITY);
+  const [selectedPoint, setSelectedPoint] = useState<[number, number]>(DEFAULT_POINT);
   const [detailsOpen, setDetailsOpen] = useState(true);
   const [playing, setPlaying] = useState(false);
   const [map, setMap] = useState<MapLibreMap | null>(null);
@@ -84,7 +83,7 @@ export function WeatherDashboard() {
   const activeDefinition =
     WEATHER_LAYERS.find((item) => item.id === activeLayer) ?? WEATHER_LAYERS[0];
   const _selectedForecast = getForecastPoint(selectedPoint[0], selectedPoint[1], timeStep, model);
-  const selectedPlace = getNearestPlace(selectedPoint);
+  const selectedPlace = selectedCity?.fullName ?? "自选点位";
   const forecastTimes = useMemo(
     () =>
       Array.from(
@@ -108,8 +107,17 @@ export function WeatherDashboard() {
   }, [timeStep]);
 
   const updateSelectedPoint = (point: [number, number]) => {
+    setSelectedCity(null);
     setSelectedPoint(point);
     setDetailsOpen(true);
+  };
+
+  const updateSelectedCity = (city: SelectedLocation) => {
+    const point = getLocationPoint(city);
+    setSelectedCity(city);
+    setSelectedPoint(point);
+    setDetailsOpen(true);
+    map?.flyTo({ center: point, zoom: getLocationZoom(city), duration: 1100 });
   };
 
   const updateLayer = (layer: WeatherLayer) => {
@@ -130,7 +138,9 @@ export function WeatherDashboard() {
           Math.max(CHINA_BOUNDS[0][1], coords.latitude),
         );
         const point: [number, number] = [longitude, latitude];
+        setSelectedCity(null);
         setSelectedPoint(point);
+        setDetailsOpen(true);
         map?.flyTo({ center: point, zoom: 5.3, duration: 1100 });
       },
       () => map?.flyTo({ center: selectedPoint, zoom: 5.3, duration: 900 }),
@@ -149,6 +159,7 @@ export function WeatherDashboard() {
         timeStep={timeStep}
         selectedPoint={selectedPoint}
         onSelectPoint={updateSelectedPoint}
+        onSelectCity={updateSelectedCity}
         onMapReady={setMap}
       />
 
@@ -190,6 +201,8 @@ export function WeatherDashboard() {
           </button>
         </div>
       </header>
+
+      <CitySearch selectedCity={selectedCity} onSelect={updateSelectedCity} />
 
       <aside className="layer-rail glass-panel" aria-label="天气图层选择">
         <div className="rail-title">
@@ -526,17 +539,6 @@ function Timeline({
       </div>
     </section>
   );
-}
-
-function getNearestPlace(point: [number, number]) {
-  const nearest = PLACES.reduce(
-    (best, place) => {
-      const distance = Math.hypot(place.point[0] - point[0], place.point[1] - point[1]);
-      return distance < best.distance ? { name: place.name, distance } : best;
-    },
-    { name: "自选点位", distance: Number.POSITIVE_INFINITY },
-  );
-  return nearest.distance < 1.4 ? nearest.name : "自选点位";
 }
 
 function getLegendValues(layer: WeatherLayer) {

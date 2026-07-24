@@ -1,4 +1,12 @@
-import type { Feature, FeatureCollection, GeoJsonProperties, Geometry, Position } from "geojson";
+import { type MapLocation, mapLocations } from "@china-weather/locations/map";
+import type {
+  Feature,
+  FeatureCollection,
+  GeoJsonProperties,
+  Geometry,
+  Point,
+  Position,
+} from "geojson";
 import { feature } from "topojson-client";
 import countriesTopology from "world-atlas/countries-110m.json";
 import type { ForecastModel, WeatherLayer } from "./weather";
@@ -15,25 +23,68 @@ export const chinaFeature = converted.features.find((item) => String(item.id) ==
   | Feature<Geometry, GeoJsonProperties>
   | undefined;
 
-const cityEntries: Array<[string, number, number, string]> = [
-  ["北京", 116.41, 39.9, "首都"],
-  ["上海", 121.47, 31.23, "华东"],
-  ["广州", 113.26, 23.13, "华南"],
-  ["成都", 104.07, 30.67, "西南"],
-  ["武汉", 114.31, 30.59, "华中"],
-  ["西安", 108.94, 34.34, "西北"],
-  ["乌鲁木齐", 87.62, 43.82, "西北"],
-  ["哈尔滨", 126.53, 45.8, "东北"],
-  ["拉萨", 91.11, 29.65, "西南"],
-  ["海口", 110.2, 20.04, "华南"],
-];
+const LABELLED_CITY_NAMES = new Set([
+  "北京",
+  "天津",
+  "石家庄",
+  "太原",
+  "呼和浩特",
+  "沈阳",
+  "长春",
+  "哈尔滨",
+  "上海",
+  "南京",
+  "杭州",
+  "合肥",
+  "福州",
+  "南昌",
+  "济南",
+  "郑州",
+  "武汉",
+  "长沙",
+  "广州",
+  "深圳",
+  "南宁",
+  "海口",
+  "重庆",
+  "成都",
+  "贵阳",
+  "昆明",
+  "拉萨",
+  "西安",
+  "兰州",
+  "西宁",
+  "银川",
+  "乌鲁木齐",
+  "香港",
+  "澳门",
+  "台北",
+]);
 
-export const cities: FeatureCollection = {
+export interface CityFeatureProperties {
+  id: string;
+  name: string;
+  fullName: string;
+  level: MapLocation["level"];
+  showLabel: boolean;
+}
+
+export const cities: FeatureCollection<Point, CityFeatureProperties> = {
   type: "FeatureCollection",
-  features: cityEntries.map(([name, longitude, latitude, region]) => ({
+  features: mapLocations.map((location) => ({
     type: "Feature",
-    properties: { name, region },
-    geometry: { type: "Point", coordinates: [longitude, latitude] },
+    id: location.id,
+    properties: {
+      id: location.id,
+      name: location.name,
+      fullName: location.fullName,
+      level: location.level,
+      showLabel: LABELLED_CITY_NAMES.has(location.name),
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [location.longitude, location.latitude],
+    },
   })),
 };
 

@@ -1,0 +1,3932 @@
+{
+  "metadata": {
+    "version": "2025.251231.260403",
+    "updatedAt": "2026-04-03",
+    "recordCount": 392,
+    "source": "AreaCity-JsSpider-StatsGov",
+    "coordinateSystem": "WGS84",
+    "coverage": "China province, prefecture and county levels; excludes township and street levels"
+  },
+  "locations": [
+    {
+      "id": "1101",
+      "code": "110100000000",
+      "level": "prefecture",
+      "name": "北京",
+      "fullName": "北京市",
+      "provinceName": "北京市",
+      "longitude": 116.399042,
+      "latitude": 39.903585
+    },
+    {
+      "id": "1201",
+      "code": "120100000000",
+      "level": "prefecture",
+      "name": "天津",
+      "fullName": "天津市",
+      "provinceName": "天津市",
+      "longitude": 117.183861,
+      "latitude": 39.124547
+    },
+    {
+      "id": "1301",
+      "code": "130100000000",
+      "level": "prefecture",
+      "name": "石家庄",
+      "fullName": "石家庄市",
+      "provinceName": "河北省",
+      "longitude": 114.509003,
+      "latitude": 38.041388
+    },
+    {
+      "id": "1302",
+      "code": "130200000000",
+      "level": "prefecture",
+      "name": "唐山",
+      "fullName": "唐山市",
+      "provinceName": "河北省",
+      "longitude": 118.173871,
+      "latitude": 39.629372
+    },
+    {
+      "id": "1303",
+      "code": "130300000000",
+      "level": "prefecture",
+      "name": "秦皇岛",
+      "fullName": "秦皇岛市",
+      "provinceName": "河北省",
+      "longitude": 119.514248,
+      "latitude": 39.887014
+    },
+    {
+      "id": "1304",
+      "code": "130400000000",
+      "level": "prefecture",
+      "name": "邯郸",
+      "fullName": "邯郸市",
+      "provinceName": "河北省",
+      "longitude": 114.533423,
+      "latitude": 36.62577
+    },
+    {
+      "id": "1305",
+      "code": "130500000000",
+      "level": "prefecture",
+      "name": "邢台",
+      "fullName": "邢台市",
+      "provinceName": "河北省",
+      "longitude": 114.491486,
+      "latitude": 37.059735
+    },
+    {
+      "id": "1306",
+      "code": "130600000000",
+      "level": "prefecture",
+      "name": "保定",
+      "fullName": "保定市",
+      "provinceName": "河北省",
+      "longitude": 115.458204,
+      "latitude": 38.873575
+    },
+    {
+      "id": "1307",
+      "code": "130700000000",
+      "level": "prefecture",
+      "name": "张家口",
+      "fullName": "张家口市",
+      "provinceName": "河北省",
+      "longitude": 114.879785,
+      "latitude": 40.767647
+    },
+    {
+      "id": "1308",
+      "code": "130800000000",
+      "level": "prefecture",
+      "name": "承德",
+      "fullName": "承德市",
+      "provinceName": "河北省",
+      "longitude": 117.956422,
+      "latitude": 40.951361
+    },
+    {
+      "id": "1309",
+      "code": "130900000000",
+      "level": "prefecture",
+      "name": "沧州",
+      "fullName": "沧州市",
+      "provinceName": "河北省",
+      "longitude": 116.832925,
+      "latitude": 38.304117
+    },
+    {
+      "id": "1310",
+      "code": "131000000000",
+      "level": "prefecture",
+      "name": "廊坊",
+      "fullName": "廊坊市",
+      "provinceName": "河北省",
+      "longitude": 116.677631,
+      "latitude": 39.537203
+    },
+    {
+      "id": "1311",
+      "code": "131100000000",
+      "level": "prefecture",
+      "name": "衡水",
+      "fullName": "衡水市",
+      "provinceName": "河北省",
+      "longitude": 115.6631,
+      "latitude": 37.738728
+    },
+    {
+      "id": "1401",
+      "code": "140100000000",
+      "level": "prefecture",
+      "name": "太原",
+      "fullName": "太原市",
+      "provinceName": "山西省",
+      "longitude": 112.543359,
+      "latitude": 37.869927
+    },
+    {
+      "id": "1402",
+      "code": "140200000000",
+      "level": "prefecture",
+      "name": "大同",
+      "fullName": "大同市",
+      "provinceName": "山西省",
+      "longitude": 113.359578,
+      "latitude": 40.095791
+    },
+    {
+      "id": "1403",
+      "code": "140300000000",
+      "level": "prefecture",
+      "name": "阳泉",
+      "fullName": "阳泉市",
+      "provinceName": "山西省",
+      "longitude": 113.574024,
+      "latitude": 37.856591
+    },
+    {
+      "id": "1404",
+      "code": "140400000000",
+      "level": "prefecture",
+      "name": "长治",
+      "fullName": "长治市",
+      "provinceName": "山西省",
+      "longitude": 113.11073,
+      "latitude": 36.194976
+    },
+    {
+      "id": "1405",
+      "code": "140500000000",
+      "level": "prefecture",
+      "name": "晋城",
+      "fullName": "晋城市",
+      "provinceName": "山西省",
+      "longitude": 112.845914,
+      "latitude": 35.49173
+    },
+    {
+      "id": "1406",
+      "code": "140600000000",
+      "level": "prefecture",
+      "name": "朔州",
+      "fullName": "朔州市",
+      "provinceName": "山西省",
+      "longitude": 112.42606,
+      "latitude": 39.330573
+    },
+    {
+      "id": "1407",
+      "code": "140700000000",
+      "level": "prefecture",
+      "name": "晋中",
+      "fullName": "晋中市",
+      "provinceName": "山西省",
+      "longitude": 112.746141,
+      "latitude": 37.687325
+    },
+    {
+      "id": "1408",
+      "code": "140800000000",
+      "level": "prefecture",
+      "name": "运城",
+      "fullName": "运城市",
+      "provinceName": "山西省",
+      "longitude": 111.001238,
+      "latitude": 35.027408
+    },
+    {
+      "id": "1409",
+      "code": "140900000000",
+      "level": "prefecture",
+      "name": "忻州",
+      "fullName": "忻州市",
+      "provinceName": "山西省",
+      "longitude": 112.727581,
+      "latitude": 38.415377
+    },
+    {
+      "id": "1410",
+      "code": "141000000000",
+      "level": "prefecture",
+      "name": "临汾",
+      "fullName": "临汾市",
+      "provinceName": "山西省",
+      "longitude": 111.513093,
+      "latitude": 36.088705
+    },
+    {
+      "id": "1411",
+      "code": "141100000000",
+      "level": "prefecture",
+      "name": "吕梁",
+      "fullName": "吕梁市",
+      "provinceName": "山西省",
+      "longitude": 111.138178,
+      "latitude": 37.518219
+    },
+    {
+      "id": "1501",
+      "code": "150100000000",
+      "level": "prefecture",
+      "name": "呼和浩特",
+      "fullName": "呼和浩特市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 111.741896,
+      "latitude": 40.84068
+    },
+    {
+      "id": "1502",
+      "code": "150200000000",
+      "level": "prefecture",
+      "name": "包头",
+      "fullName": "包头市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 109.947464,
+      "latitude": 40.62021
+    },
+    {
+      "id": "1503",
+      "code": "150300000000",
+      "level": "prefecture",
+      "name": "乌海",
+      "fullName": "乌海市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 106.78939,
+      "latitude": 39.654105
+    },
+    {
+      "id": "1504",
+      "code": "150400000000",
+      "level": "prefecture",
+      "name": "赤峰",
+      "fullName": "赤峰市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 118.881442,
+      "latitude": 42.254941
+    },
+    {
+      "id": "1505",
+      "code": "150500000000",
+      "level": "prefecture",
+      "name": "通辽",
+      "fullName": "通辽市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 122.237756,
+      "latitude": 43.651204
+    },
+    {
+      "id": "1506",
+      "code": "150600000000",
+      "level": "prefecture",
+      "name": "鄂尔多斯",
+      "fullName": "鄂尔多斯市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 109.776762,
+      "latitude": 39.607727
+    },
+    {
+      "id": "1507",
+      "code": "150700000000",
+      "level": "prefecture",
+      "name": "呼伦贝尔",
+      "fullName": "呼伦贝尔市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 119.771145,
+      "latitude": 49.164607
+    },
+    {
+      "id": "1508",
+      "code": "150800000000",
+      "level": "prefecture",
+      "name": "巴彦淖尔",
+      "fullName": "巴彦淖尔市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 107.382173,
+      "latitude": 40.74154
+    },
+    {
+      "id": "1509",
+      "code": "150900000000",
+      "level": "prefecture",
+      "name": "乌兰察布",
+      "fullName": "乌兰察布市",
+      "provinceName": "内蒙古自治区",
+      "longitude": 113.12496,
+      "latitude": 40.992758
+    },
+    {
+      "id": "1522",
+      "code": "152200000000",
+      "level": "prefecture",
+      "name": "兴安",
+      "fullName": "兴安盟",
+      "provinceName": "内蒙古自治区",
+      "longitude": 122.03167,
+      "latitude": 46.080401
+    },
+    {
+      "id": "1525",
+      "code": "152500000000",
+      "level": "prefecture",
+      "name": "锡林郭勒",
+      "fullName": "锡林郭勒盟",
+      "provinceName": "内蒙古自治区",
+      "longitude": 116.04055,
+      "latitude": 43.931027
+    },
+    {
+      "id": "1529",
+      "code": "152900000000",
+      "level": "prefecture",
+      "name": "阿拉善",
+      "fullName": "阿拉善盟",
+      "provinceName": "内蒙古自治区",
+      "longitude": 105.724865,
+      "latitude": 38.850989
+    },
+    {
+      "id": "2101",
+      "code": "210100000000",
+      "level": "prefecture",
+      "name": "沈阳",
+      "fullName": "沈阳市",
+      "provinceName": "辽宁省",
+      "longitude": 123.458631,
+      "latitude": 41.675224
+    },
+    {
+      "id": "2102",
+      "code": "210200000000",
+      "level": "prefecture",
+      "name": "大连",
+      "fullName": "大连市",
+      "provinceName": "辽宁省",
+      "longitude": 121.609843,
+      "latitude": 38.913185
+    },
+    {
+      "id": "2103",
+      "code": "210300000000",
+      "level": "prefecture",
+      "name": "鞍山",
+      "fullName": "鞍山市",
+      "provinceName": "辽宁省",
+      "longitude": 122.988684,
+      "latitude": 41.10632
+    },
+    {
+      "id": "2104",
+      "code": "210400000000",
+      "level": "prefecture",
+      "name": "抚顺",
+      "fullName": "抚顺市",
+      "provinceName": "辽宁省",
+      "longitude": 123.951278,
+      "latitude": 41.879155
+    },
+    {
+      "id": "2105",
+      "code": "210500000000",
+      "level": "prefecture",
+      "name": "本溪",
+      "fullName": "本溪市",
+      "provinceName": "辽宁省",
+      "longitude": 123.760783,
+      "latitude": 41.292033
+    },
+    {
+      "id": "2106",
+      "code": "210600000000",
+      "level": "prefecture",
+      "name": "丹东",
+      "fullName": "丹东市",
+      "provinceName": "辽宁省",
+      "longitude": 124.348648,
+      "latitude": 39.999101
+    },
+    {
+      "id": "2107",
+      "code": "210700000000",
+      "level": "prefecture",
+      "name": "锦州",
+      "fullName": "锦州市",
+      "provinceName": "辽宁省",
+      "longitude": 121.121216,
+      "latitude": 41.094064
+    },
+    {
+      "id": "2108",
+      "code": "210800000000",
+      "level": "prefecture",
+      "name": "营口",
+      "fullName": "营口市",
+      "provinceName": "辽宁省",
+      "longitude": 122.21396,
+      "latitude": 40.623476
+    },
+    {
+      "id": "2109",
+      "code": "210900000000",
+      "level": "prefecture",
+      "name": "阜新",
+      "fullName": "阜新市",
+      "provinceName": "辽宁省",
+      "longitude": 121.664643,
+      "latitude": 42.019918
+    },
+    {
+      "id": "2110",
+      "code": "211000000000",
+      "level": "prefecture",
+      "name": "辽阳",
+      "fullName": "辽阳市",
+      "provinceName": "辽宁省",
+      "longitude": 123.233933,
+      "latitude": 41.265329
+    },
+    {
+      "id": "2111",
+      "code": "211100000000",
+      "level": "prefecture",
+      "name": "盘锦",
+      "fullName": "盘锦市",
+      "provinceName": "辽宁省",
+      "longitude": 122.165414,
+      "latitude": 40.717867
+    },
+    {
+      "id": "2112",
+      "code": "211200000000",
+      "level": "prefecture",
+      "name": "铁岭",
+      "fullName": "铁岭市",
+      "provinceName": "辽宁省",
+      "longitude": 123.719997,
+      "latitude": 42.221482
+    },
+    {
+      "id": "2113",
+      "code": "211300000000",
+      "level": "prefecture",
+      "name": "朝阳",
+      "fullName": "朝阳市",
+      "provinceName": "辽宁省",
+      "longitude": 120.483268,
+      "latitude": 41.599658
+    },
+    {
+      "id": "2114",
+      "code": "211400000000",
+      "level": "prefecture",
+      "name": "葫芦岛",
+      "fullName": "葫芦岛市",
+      "provinceName": "辽宁省",
+      "longitude": 120.831608,
+      "latitude": 40.709525
+    },
+    {
+      "id": "2201",
+      "code": "220100000000",
+      "level": "prefecture",
+      "name": "长春",
+      "fullName": "长春市",
+      "provinceName": "吉林省",
+      "longitude": 125.317136,
+      "latitude": 43.814544
+    },
+    {
+      "id": "2202",
+      "code": "220200000000",
+      "level": "prefecture",
+      "name": "吉林市",
+      "fullName": "吉林市",
+      "provinceName": "吉林省",
+      "longitude": 126.54403,
+      "latitude": 43.835879
+    },
+    {
+      "id": "2203",
+      "code": "220300000000",
+      "level": "prefecture",
+      "name": "四平",
+      "fullName": "四平市",
+      "provinceName": "吉林省",
+      "longitude": 124.344394,
+      "latitude": 43.164187
+    },
+    {
+      "id": "2204",
+      "code": "220400000000",
+      "level": "prefecture",
+      "name": "辽源",
+      "fullName": "辽源市",
+      "provinceName": "吉林省",
+      "longitude": 125.138281,
+      "latitude": 42.885443
+    },
+    {
+      "id": "2205",
+      "code": "220500000000",
+      "level": "prefecture",
+      "name": "通化",
+      "fullName": "通化市",
+      "provinceName": "吉林省",
+      "longitude": 125.934064,
+      "latitude": 41.726147
+    },
+    {
+      "id": "2206",
+      "code": "220600000000",
+      "level": "prefecture",
+      "name": "白山",
+      "fullName": "白山市",
+      "provinceName": "吉林省",
+      "longitude": 126.408407,
+      "latitude": 41.941619
+    },
+    {
+      "id": "2207",
+      "code": "220700000000",
+      "level": "prefecture",
+      "name": "松原",
+      "fullName": "松原市",
+      "provinceName": "吉林省",
+      "longitude": 124.819034,
+      "latitude": 45.13994
+    },
+    {
+      "id": "2208",
+      "code": "220800000000",
+      "level": "prefecture",
+      "name": "白城",
+      "fullName": "白城市",
+      "provinceName": "吉林省",
+      "longitude": 122.832229,
+      "latitude": 45.618221
+    },
+    {
+      "id": "2224",
+      "code": "222400000000",
+      "level": "prefecture",
+      "name": "延边",
+      "fullName": "延边朝鲜族自治州",
+      "provinceName": "吉林省",
+      "longitude": 129.463538,
+      "latitude": 42.906849
+    },
+    {
+      "id": "2301",
+      "code": "230100000000",
+      "level": "prefecture",
+      "name": "哈尔滨",
+      "fullName": "哈尔滨市",
+      "provinceName": "黑龙江省",
+      "longitude": 126.52901,
+      "latitude": 45.800999
+    },
+    {
+      "id": "2302",
+      "code": "230200000000",
+      "level": "prefecture",
+      "name": "齐齐哈尔",
+      "fullName": "齐齐哈尔市",
+      "provinceName": "黑龙江省",
+      "longitude": 123.911643,
+      "latitude": 47.352853
+    },
+    {
+      "id": "2303",
+      "code": "230300000000",
+      "level": "prefecture",
+      "name": "鸡西",
+      "fullName": "鸡西市",
+      "provinceName": "黑龙江省",
+      "longitude": 130.961929,
+      "latitude": 45.292922
+    },
+    {
+      "id": "2304",
+      "code": "230400000000",
+      "level": "prefecture",
+      "name": "鹤岗",
+      "fullName": "鹤岗市",
+      "provinceName": "黑龙江省",
+      "longitude": 130.289833,
+      "latitude": 47.348215
+    },
+    {
+      "id": "2305",
+      "code": "230500000000",
+      "level": "prefecture",
+      "name": "双鸭山",
+      "fullName": "双鸭山市",
+      "provinceName": "黑龙江省",
+      "longitude": 131.133412,
+      "latitude": 46.673891
+    },
+    {
+      "id": "2306",
+      "code": "230600000000",
+      "level": "prefecture",
+      "name": "大庆",
+      "fullName": "大庆市",
+      "provinceName": "黑龙江省",
+      "longitude": 125.097024,
+      "latitude": 46.587394
+    },
+    {
+      "id": "2307",
+      "code": "230700000000",
+      "level": "prefecture",
+      "name": "伊春",
+      "fullName": "伊春市",
+      "provinceName": "黑龙江省",
+      "longitude": 128.83381,
+      "latitude": 47.726065
+    },
+    {
+      "id": "2308",
+      "code": "230800000000",
+      "level": "prefecture",
+      "name": "佳木斯",
+      "fullName": "佳木斯市",
+      "provinceName": "黑龙江省",
+      "longitude": 130.311123,
+      "latitude": 46.797781
+    },
+    {
+      "id": "2309",
+      "code": "230900000000",
+      "level": "prefecture",
+      "name": "七台河",
+      "fullName": "七台河市",
+      "provinceName": "黑龙江省",
+      "longitude": 130.995311,
+      "latitude": 45.768954
+    },
+    {
+      "id": "2310",
+      "code": "231000000000",
+      "level": "prefecture",
+      "name": "牡丹江",
+      "fullName": "牡丹江市",
+      "provinceName": "黑龙江省",
+      "longitude": 129.625851,
+      "latitude": 44.54952
+    },
+    {
+      "id": "2311",
+      "code": "231100000000",
+      "level": "prefecture",
+      "name": "黑河",
+      "fullName": "黑河市",
+      "provinceName": "黑龙江省",
+      "longitude": 127.520943,
+      "latitude": 50.243264
+    },
+    {
+      "id": "2312",
+      "code": "231200000000",
+      "level": "prefecture",
+      "name": "绥化",
+      "fullName": "绥化市",
+      "provinceName": "黑龙江省",
+      "longitude": 126.962391,
+      "latitude": 46.652246
+    },
+    {
+      "id": "2327",
+      "code": "232700000000",
+      "level": "prefecture",
+      "name": "大兴安岭",
+      "fullName": "大兴安岭地区",
+      "provinceName": "黑龙江省",
+      "longitude": 124.11024,
+      "latitude": 50.4096
+    },
+    {
+      "id": "3101",
+      "code": "310100000000",
+      "level": "prefecture",
+      "name": "上海",
+      "fullName": "上海市",
+      "provinceName": "上海市",
+      "longitude": 121.468117,
+      "latitude": 31.233645
+    },
+    {
+      "id": "3201",
+      "code": "320100000000",
+      "level": "prefecture",
+      "name": "南京",
+      "fullName": "南京市",
+      "provinceName": "江苏省",
+      "longitude": 118.79144,
+      "latitude": 32.061419
+    },
+    {
+      "id": "3202",
+      "code": "320200000000",
+      "level": "prefecture",
+      "name": "无锡",
+      "fullName": "无锡市",
+      "provinceName": "江苏省",
+      "longitude": 120.30728,
+      "latitude": 31.492953
+    },
+    {
+      "id": "3203",
+      "code": "320300000000",
+      "level": "prefecture",
+      "name": "徐州",
+      "fullName": "徐州市",
+      "provinceName": "江苏省",
+      "longitude": 117.277999,
+      "latitude": 34.205515
+    },
+    {
+      "id": "3204",
+      "code": "320400000000",
+      "level": "prefecture",
+      "name": "常州",
+      "fullName": "常州市",
+      "provinceName": "江苏省",
+      "longitude": 119.969342,
+      "latitude": 31.813354
+    },
+    {
+      "id": "3205",
+      "code": "320500000000",
+      "level": "prefecture",
+      "name": "苏州",
+      "fullName": "苏州市",
+      "provinceName": "江苏省",
+      "longitude": 120.581117,
+      "latitude": 31.301942
+    },
+    {
+      "id": "3206",
+      "code": "320600000000",
+      "level": "prefecture",
+      "name": "南通",
+      "fullName": "南通市",
+      "provinceName": "江苏省",
+      "longitude": 120.890306,
+      "latitude": 31.983439
+    },
+    {
+      "id": "3207",
+      "code": "320700000000",
+      "level": "prefecture",
+      "name": "连云港",
+      "fullName": "连云港市",
+      "provinceName": "江苏省",
+      "longitude": 119.215955,
+      "latitude": 34.597674
+    },
+    {
+      "id": "3208",
+      "code": "320800000000",
+      "level": "prefecture",
+      "name": "淮安",
+      "fullName": "淮安市",
+      "provinceName": "江苏省",
+      "longitude": 119.107545,
+      "latitude": 33.552777
+    },
+    {
+      "id": "3209",
+      "code": "320900000000",
+      "level": "prefecture",
+      "name": "盐城",
+      "fullName": "盐城市",
+      "provinceName": "江苏省",
+      "longitude": 120.157684,
+      "latitude": 33.349613
+    },
+    {
+      "id": "3210",
+      "code": "321000000000",
+      "level": "prefecture",
+      "name": "扬州",
+      "fullName": "扬州市",
+      "provinceName": "江苏省",
+      "longitude": 119.407354,
+      "latitude": 32.396284
+    },
+    {
+      "id": "3211",
+      "code": "321100000000",
+      "level": "prefecture",
+      "name": "镇江",
+      "fullName": "镇江市",
+      "provinceName": "江苏省",
+      "longitude": 119.418994,
+      "latitude": 32.190018
+    },
+    {
+      "id": "3212",
+      "code": "321200000000",
+      "level": "prefecture",
+      "name": "泰州",
+      "fullName": "泰州市",
+      "provinceName": "江苏省",
+      "longitude": 119.918147,
+      "latitude": 32.458915
+    },
+    {
+      "id": "3213",
+      "code": "321300000000",
+      "level": "prefecture",
+      "name": "宿迁",
+      "fullName": "宿迁市",
+      "provinceName": "江苏省",
+      "longitude": 118.269722,
+      "latitude": 33.964533
+    },
+    {
+      "id": "3301",
+      "code": "330100000000",
+      "level": "prefecture",
+      "name": "杭州",
+      "fullName": "杭州市",
+      "provinceName": "浙江省",
+      "longitude": 120.205366,
+      "latitude": 30.248993
+    },
+    {
+      "id": "3302",
+      "code": "330200000000",
+      "level": "prefecture",
+      "name": "宁波",
+      "fullName": "宁波市",
+      "provinceName": "浙江省",
+      "longitude": 121.620438,
+      "latitude": 29.862877
+    },
+    {
+      "id": "3303",
+      "code": "330300000000",
+      "level": "prefecture",
+      "name": "温州",
+      "fullName": "温州市",
+      "provinceName": "浙江省",
+      "longitude": 120.695221,
+      "latitude": 27.997131
+    },
+    {
+      "id": "3304",
+      "code": "330400000000",
+      "level": "prefecture",
+      "name": "嘉兴",
+      "fullName": "嘉兴市",
+      "provinceName": "浙江省",
+      "longitude": 120.751304,
+      "latitude": 30.749114
+    },
+    {
+      "id": "3305",
+      "code": "330500000000",
+      "level": "prefecture",
+      "name": "湖州",
+      "fullName": "湖州市",
+      "provinceName": "浙江省",
+      "longitude": 120.08201,
+      "latitude": 30.896222
+    },
+    {
+      "id": "3306",
+      "code": "330600000000",
+      "level": "prefecture",
+      "name": "绍兴",
+      "fullName": "绍兴市",
+      "provinceName": "浙江省",
+      "longitude": 120.578806,
+      "latitude": 30.054186
+    },
+    {
+      "id": "3307",
+      "code": "330700000000",
+      "level": "prefecture",
+      "name": "金华",
+      "fullName": "金华市",
+      "provinceName": "浙江省",
+      "longitude": 119.64256,
+      "latitude": 29.082171
+    },
+    {
+      "id": "3308",
+      "code": "330800000000",
+      "level": "prefecture",
+      "name": "衢州",
+      "fullName": "衢州市",
+      "provinceName": "浙江省",
+      "longitude": 118.854512,
+      "latitude": 28.973314
+    },
+    {
+      "id": "3309",
+      "code": "330900000000",
+      "level": "prefecture",
+      "name": "舟山",
+      "fullName": "舟山市",
+      "provinceName": "浙江省",
+      "longitude": 122.203237,
+      "latitude": 29.987981
+    },
+    {
+      "id": "3310",
+      "code": "331000000000",
+      "level": "prefecture",
+      "name": "台州",
+      "fullName": "台州市",
+      "provinceName": "浙江省",
+      "longitude": 121.416362,
+      "latitude": 28.658667
+    },
+    {
+      "id": "3311",
+      "code": "331100000000",
+      "level": "prefecture",
+      "name": "丽水",
+      "fullName": "丽水市",
+      "provinceName": "浙江省",
+      "longitude": 119.918844,
+      "latitude": 28.471099
+    },
+    {
+      "id": "3401",
+      "code": "340100000000",
+      "level": "prefecture",
+      "name": "合肥",
+      "fullName": "合肥市",
+      "provinceName": "安徽省",
+      "longitude": 117.221785,
+      "latitude": 31.822566
+    },
+    {
+      "id": "3402",
+      "code": "340200000000",
+      "level": "prefecture",
+      "name": "芜湖",
+      "fullName": "芜湖市",
+      "provinceName": "安徽省",
+      "longitude": 118.427684,
+      "latitude": 31.354466
+    },
+    {
+      "id": "3403",
+      "code": "340300000000",
+      "level": "prefecture",
+      "name": "蚌埠",
+      "fullName": "蚌埠市",
+      "provinceName": "安徽省",
+      "longitude": 117.382719,
+      "latitude": 32.918526
+    },
+    {
+      "id": "3404",
+      "code": "340400000000",
+      "level": "prefecture",
+      "name": "淮南",
+      "fullName": "淮南市",
+      "provinceName": "安徽省",
+      "longitude": 117.013103,
+      "latitude": 32.587392
+    },
+    {
+      "id": "3405",
+      "code": "340500000000",
+      "level": "prefecture",
+      "name": "马鞍山",
+      "fullName": "马鞍山市",
+      "provinceName": "安徽省",
+      "longitude": 118.501671,
+      "latitude": 31.670757
+    },
+    {
+      "id": "3406",
+      "code": "340600000000",
+      "level": "prefecture",
+      "name": "淮北",
+      "fullName": "淮北市",
+      "provinceName": "安徽省",
+      "longitude": 116.792965,
+      "latitude": 33.957691
+    },
+    {
+      "id": "3407",
+      "code": "340700000000",
+      "level": "prefecture",
+      "name": "铜陵",
+      "fullName": "铜陵市",
+      "provinceName": "安徽省",
+      "longitude": 117.805956,
+      "latitude": 30.947507
+    },
+    {
+      "id": "3408",
+      "code": "340800000000",
+      "level": "prefecture",
+      "name": "安庆",
+      "fullName": "安庆市",
+      "provinceName": "安徽省",
+      "longitude": 117.109842,
+      "latitude": 30.534093
+    },
+    {
+      "id": "3410",
+      "code": "341000000000",
+      "level": "prefecture",
+      "name": "黄山",
+      "fullName": "黄山市",
+      "provinceName": "安徽省",
+      "longitude": 118.332438,
+      "latitude": 29.717284
+    },
+    {
+      "id": "3411",
+      "code": "341100000000",
+      "level": "prefecture",
+      "name": "滁州",
+      "fullName": "滁州市",
+      "provinceName": "安徽省",
+      "longitude": 118.328012,
+      "latitude": 32.257877
+    },
+    {
+      "id": "3412",
+      "code": "341200000000",
+      "level": "prefecture",
+      "name": "阜阳",
+      "fullName": "阜阳市",
+      "provinceName": "安徽省",
+      "longitude": 115.808881,
+      "latitude": 32.89303
+    },
+    {
+      "id": "3413",
+      "code": "341300000000",
+      "level": "prefecture",
+      "name": "宿州",
+      "fullName": "宿州市",
+      "provinceName": "安徽省",
+      "longitude": 116.958806,
+      "latitude": 33.64929
+    },
+    {
+      "id": "3415",
+      "code": "341500000000",
+      "level": "prefecture",
+      "name": "六安",
+      "fullName": "六安市",
+      "provinceName": "安徽省",
+      "longitude": 116.514647,
+      "latitude": 31.737958
+    },
+    {
+      "id": "3416",
+      "code": "341600000000",
+      "level": "prefecture",
+      "name": "亳州",
+      "fullName": "亳州市",
+      "provinceName": "安徽省",
+      "longitude": 115.773048,
+      "latitude": 33.847728
+    },
+    {
+      "id": "3417",
+      "code": "341700000000",
+      "level": "prefecture",
+      "name": "池州",
+      "fullName": "池州市",
+      "provinceName": "安徽省",
+      "longitude": 117.490209,
+      "latitude": 30.676633
+    },
+    {
+      "id": "3418",
+      "code": "341800000000",
+      "level": "prefecture",
+      "name": "宣城",
+      "fullName": "宣城市",
+      "provinceName": "安徽省",
+      "longitude": 118.754004,
+      "latitude": 30.941499
+    },
+    {
+      "id": "3501",
+      "code": "350100000000",
+      "level": "prefecture",
+      "name": "福州",
+      "fullName": "福州市",
+      "provinceName": "福建省",
+      "longitude": 119.291611,
+      "latitude": 26.077388
+    },
+    {
+      "id": "3502",
+      "code": "350200000000",
+      "level": "prefecture",
+      "name": "厦门",
+      "fullName": "厦门市",
+      "provinceName": "福建省",
+      "longitude": 118.083933,
+      "latitude": 24.482274
+    },
+    {
+      "id": "3503",
+      "code": "350300000000",
+      "level": "prefecture",
+      "name": "莆田",
+      "fullName": "莆田市",
+      "provinceName": "福建省",
+      "longitude": 119.002928,
+      "latitude": 25.456984
+    },
+    {
+      "id": "3504",
+      "code": "350400000000",
+      "level": "prefecture",
+      "name": "三明",
+      "fullName": "三明市",
+      "provinceName": "福建省",
+      "longitude": 117.634019,
+      "latitude": 26.26688
+    },
+    {
+      "id": "3505",
+      "code": "350500000000",
+      "level": "prefecture",
+      "name": "泉州",
+      "fullName": "泉州市",
+      "provinceName": "福建省",
+      "longitude": 118.671177,
+      "latitude": 24.87736
+    },
+    {
+      "id": "3506",
+      "code": "350600000000",
+      "level": "prefecture",
+      "name": "漳州",
+      "fullName": "漳州市",
+      "provinceName": "福建省",
+      "longitude": 117.642511,
+      "latitude": 24.518276
+    },
+    {
+      "id": "3507",
+      "code": "350700000000",
+      "level": "prefecture",
+      "name": "南平",
+      "fullName": "南平市",
+      "provinceName": "福建省",
+      "longitude": 118.076129,
+      "latitude": 27.385883
+    },
+    {
+      "id": "3508",
+      "code": "350800000000",
+      "level": "prefecture",
+      "name": "龙岩",
+      "fullName": "龙岩市",
+      "provinceName": "福建省",
+      "longitude": 117.012487,
+      "latitude": 25.078642
+    },
+    {
+      "id": "3509",
+      "code": "350900000000",
+      "level": "prefecture",
+      "name": "宁德",
+      "fullName": "宁德市",
+      "provinceName": "福建省",
+      "longitude": 119.543146,
+      "latitude": 26.669717
+    },
+    {
+      "id": "3601",
+      "code": "360100000000",
+      "level": "prefecture",
+      "name": "南昌",
+      "fullName": "南昌市",
+      "provinceName": "江西省",
+      "longitude": 115.853071,
+      "latitude": 28.686306
+    },
+    {
+      "id": "3602",
+      "code": "360200000000",
+      "level": "prefecture",
+      "name": "景德镇",
+      "fullName": "景德镇市",
+      "provinceName": "江西省",
+      "longitude": 117.179586,
+      "latitude": 29.277051
+    },
+    {
+      "id": "3603",
+      "code": "360300000000",
+      "level": "prefecture",
+      "name": "萍乡",
+      "fullName": "萍乡市",
+      "provinceName": "江西省",
+      "longitude": 113.881909,
+      "latitude": 27.662172
+    },
+    {
+      "id": "3604",
+      "code": "360400000000",
+      "level": "prefecture",
+      "name": "九江",
+      "fullName": "九江市",
+      "provinceName": "江西省",
+      "longitude": 115.948599,
+      "latitude": 29.663841
+    },
+    {
+      "id": "3605",
+      "code": "360500000000",
+      "level": "prefecture",
+      "name": "新余",
+      "fullName": "新余市",
+      "provinceName": "江西省",
+      "longitude": 114.911819,
+      "latitude": 27.822011
+    },
+    {
+      "id": "3606",
+      "code": "360600000000",
+      "level": "prefecture",
+      "name": "鹰潭",
+      "fullName": "鹰潭市",
+      "provinceName": "江西省",
+      "longitude": 117.034336,
+      "latitude": 28.275282
+    },
+    {
+      "id": "3607",
+      "code": "360700000000",
+      "level": "prefecture",
+      "name": "赣州",
+      "fullName": "赣州市",
+      "provinceName": "江西省",
+      "longitude": 114.928769,
+      "latitude": 25.834323
+    },
+    {
+      "id": "3608",
+      "code": "360800000000",
+      "level": "prefecture",
+      "name": "吉安",
+      "fullName": "吉安市",
+      "provinceName": "江西省",
+      "longitude": 114.961914,
+      "latitude": 27.094676
+    },
+    {
+      "id": "3609",
+      "code": "360900000000",
+      "level": "prefecture",
+      "name": "宜春",
+      "fullName": "宜春市",
+      "provinceName": "江西省",
+      "longitude": 114.411521,
+      "latitude": 27.819348
+    },
+    {
+      "id": "3610",
+      "code": "361000000000",
+      "level": "prefecture",
+      "name": "抚州",
+      "fullName": "抚州市",
+      "provinceName": "江西省",
+      "longitude": 116.353049,
+      "latitude": 27.952113
+    },
+    {
+      "id": "3611",
+      "code": "361100000000",
+      "level": "prefecture",
+      "name": "上饶",
+      "fullName": "上饶市",
+      "provinceName": "江西省",
+      "longitude": 117.938085,
+      "latitude": 28.458537
+    },
+    {
+      "id": "3701",
+      "code": "370100000000",
+      "level": "prefecture",
+      "name": "济南",
+      "fullName": "济南市",
+      "provinceName": "山东省",
+      "longitude": 117.114,
+      "latitude": 36.651639
+    },
+    {
+      "id": "3702",
+      "code": "370200000000",
+      "level": "prefecture",
+      "name": "青岛",
+      "fullName": "青岛市",
+      "provinceName": "山东省",
+      "longitude": 120.377532,
+      "latitude": 36.066662
+    },
+    {
+      "id": "3703",
+      "code": "370300000000",
+      "level": "prefecture",
+      "name": "淄博",
+      "fullName": "淄博市",
+      "provinceName": "山东省",
+      "longitude": 118.048913,
+      "latitude": 36.813262
+    },
+    {
+      "id": "3704",
+      "code": "370400000000",
+      "level": "prefecture",
+      "name": "枣庄",
+      "fullName": "枣庄市",
+      "provinceName": "山东省",
+      "longitude": 117.317849,
+      "latitude": 34.811652
+    },
+    {
+      "id": "3705",
+      "code": "370500000000",
+      "level": "prefecture",
+      "name": "东营",
+      "fullName": "东营市",
+      "provinceName": "山东省",
+      "longitude": 118.668966,
+      "latitude": 37.433314
+    },
+    {
+      "id": "3706",
+      "code": "370600000000",
+      "level": "prefecture",
+      "name": "烟台",
+      "fullName": "烟台市",
+      "provinceName": "山东省",
+      "longitude": 121.442548,
+      "latitude": 37.46358
+    },
+    {
+      "id": "3707",
+      "code": "370700000000",
+      "level": "prefecture",
+      "name": "潍坊",
+      "fullName": "潍坊市",
+      "provinceName": "山东省",
+      "longitude": 119.155839,
+      "latitude": 36.707224
+    },
+    {
+      "id": "3708",
+      "code": "370800000000",
+      "level": "prefecture",
+      "name": "济宁",
+      "fullName": "济宁市",
+      "provinceName": "山东省",
+      "longitude": 116.581825,
+      "latitude": 35.415565
+    },
+    {
+      "id": "3709",
+      "code": "370900000000",
+      "level": "prefecture",
+      "name": "泰安",
+      "fullName": "泰安市",
+      "provinceName": "山东省",
+      "longitude": 117.080896,
+      "latitude": 36.201534
+    },
+    {
+      "id": "3710",
+      "code": "371000000000",
+      "level": "prefecture",
+      "name": "威海",
+      "fullName": "威海市",
+      "provinceName": "山东省",
+      "longitude": 122.115462,
+      "latitude": 37.512283
+    },
+    {
+      "id": "3711",
+      "code": "371100000000",
+      "level": "prefecture",
+      "name": "日照",
+      "fullName": "日照市",
+      "provinceName": "山东省",
+      "longitude": 119.521422,
+      "latitude": 35.4172
+    },
+    {
+      "id": "3713",
+      "code": "371300000000",
+      "level": "prefecture",
+      "name": "临沂",
+      "fullName": "临沂市",
+      "provinceName": "山东省",
+      "longitude": 118.35071,
+      "latitude": 35.104164
+    },
+    {
+      "id": "3714",
+      "code": "371400000000",
+      "level": "prefecture",
+      "name": "德州",
+      "fullName": "德州市",
+      "provinceName": "山东省",
+      "longitude": 116.35334,
+      "latitude": 37.435623
+    },
+    {
+      "id": "3715",
+      "code": "371500000000",
+      "level": "prefecture",
+      "name": "聊城",
+      "fullName": "聊城市",
+      "provinceName": "山东省",
+      "longitude": 115.979558,
+      "latitude": 36.45577
+    },
+    {
+      "id": "3716",
+      "code": "371600000000",
+      "level": "prefecture",
+      "name": "滨州",
+      "fullName": "滨州市",
+      "provinceName": "山东省",
+      "longitude": 117.964828,
+      "latitude": 37.382037
+    },
+    {
+      "id": "3717",
+      "code": "371700000000",
+      "level": "prefecture",
+      "name": "菏泽",
+      "fullName": "菏泽市",
+      "provinceName": "山东省",
+      "longitude": 115.473795,
+      "latitude": 35.234701
+    },
+    {
+      "id": "4101",
+      "code": "410100000000",
+      "level": "prefecture",
+      "name": "郑州",
+      "fullName": "郑州市",
+      "provinceName": "河南省",
+      "longitude": 113.619304,
+      "latitude": 34.747486
+    },
+    {
+      "id": "4102",
+      "code": "410200000000",
+      "level": "prefecture",
+      "name": "开封",
+      "fullName": "开封市",
+      "provinceName": "河南省",
+      "longitude": 114.308423,
+      "latitude": 34.798963
+    },
+    {
+      "id": "4103",
+      "code": "410300000000",
+      "level": "prefecture",
+      "name": "洛阳",
+      "fullName": "洛阳市",
+      "provinceName": "河南省",
+      "longitude": 112.447644,
+      "latitude": 34.620728
+    },
+    {
+      "id": "4104",
+      "code": "410400000000",
+      "level": "prefecture",
+      "name": "平顶山",
+      "fullName": "平顶山市",
+      "provinceName": "河南省",
+      "longitude": 113.186326,
+      "latitude": 33.76799
+    },
+    {
+      "id": "4105",
+      "code": "410500000000",
+      "level": "prefecture",
+      "name": "安阳",
+      "fullName": "安阳市",
+      "provinceName": "河南省",
+      "longitude": 114.38639,
+      "latitude": 36.098605
+    },
+    {
+      "id": "4106",
+      "code": "410600000000",
+      "level": "prefecture",
+      "name": "鹤壁",
+      "fullName": "鹤壁市",
+      "provinceName": "河南省",
+      "longitude": 114.291376,
+      "latitude": 35.748398
+    },
+    {
+      "id": "4107",
+      "code": "410700000000",
+      "level": "prefecture",
+      "name": "新乡",
+      "fullName": "新乡市",
+      "provinceName": "河南省",
+      "longitude": 113.920885,
+      "latitude": 35.304174
+    },
+    {
+      "id": "4108",
+      "code": "410800000000",
+      "level": "prefecture",
+      "name": "焦作",
+      "fullName": "焦作市",
+      "provinceName": "河南省",
+      "longitude": 113.235537,
+      "latitude": 35.216238
+    },
+    {
+      "id": "4109",
+      "code": "410900000000",
+      "level": "prefecture",
+      "name": "濮阳",
+      "fullName": "濮阳市",
+      "provinceName": "河南省",
+      "longitude": 115.023356,
+      "latitude": 35.762735
+    },
+    {
+      "id": "4110",
+      "code": "411000000000",
+      "level": "prefecture",
+      "name": "许昌",
+      "fullName": "许昌市",
+      "provinceName": "河南省",
+      "longitude": 113.846131,
+      "latitude": 34.038877
+    },
+    {
+      "id": "4111",
+      "code": "411100000000",
+      "level": "prefecture",
+      "name": "漯河",
+      "fullName": "漯河市",
+      "provinceName": "河南省",
+      "longitude": 114.010675,
+      "latitude": 33.581868
+    },
+    {
+      "id": "4112",
+      "code": "411200000000",
+      "level": "prefecture",
+      "name": "三门峡",
+      "fullName": "三门峡市",
+      "provinceName": "河南省",
+      "longitude": 111.194488,
+      "latitude": 34.774183
+    },
+    {
+      "id": "4113",
+      "code": "411300000000",
+      "level": "prefecture",
+      "name": "南阳",
+      "fullName": "南阳市",
+      "provinceName": "河南省",
+      "longitude": 112.579017,
+      "latitude": 33.018182
+    },
+    {
+      "id": "4114",
+      "code": "411400000000",
+      "level": "prefecture",
+      "name": "商丘",
+      "fullName": "商丘市",
+      "provinceName": "河南省",
+      "longitude": 115.650849,
+      "latitude": 34.416531
+    },
+    {
+      "id": "4115",
+      "code": "411500000000",
+      "level": "prefecture",
+      "name": "信阳",
+      "fullName": "信阳市",
+      "provinceName": "河南省",
+      "longitude": 114.085171,
+      "latitude": 32.150569
+    },
+    {
+      "id": "4116",
+      "code": "411600000000",
+      "level": "prefecture",
+      "name": "周口",
+      "fullName": "周口市",
+      "provinceName": "河南省",
+      "longitude": 114.695739,
+      "latitude": 33.636199
+    },
+    {
+      "id": "4117",
+      "code": "411700000000",
+      "level": "prefecture",
+      "name": "驻马店",
+      "fullName": "驻马店市",
+      "provinceName": "河南省",
+      "longitude": 114.016105,
+      "latitude": 33.015849
+    },
+    {
+      "id": "419001",
+      "code": "419001000000",
+      "level": "prefecture",
+      "name": "济源",
+      "fullName": "济源市",
+      "provinceName": "河南省",
+      "longitude": 112.59641,
+      "latitude": 35.069924
+    },
+    {
+      "id": "4201",
+      "code": "420100000000",
+      "level": "prefecture",
+      "name": "武汉",
+      "fullName": "武汉市",
+      "provinceName": "湖北省",
+      "longitude": 114.299125,
+      "latitude": 30.595765
+    },
+    {
+      "id": "4202",
+      "code": "420200000000",
+      "level": "prefecture",
+      "name": "黄石",
+      "fullName": "黄石市",
+      "provinceName": "湖北省",
+      "longitude": 115.03361,
+      "latitude": 30.203503
+    },
+    {
+      "id": "4203",
+      "code": "420300000000",
+      "level": "prefecture",
+      "name": "十堰",
+      "fullName": "十堰市",
+      "provinceName": "湖北省",
+      "longitude": 110.793602,
+      "latitude": 32.631248
+    },
+    {
+      "id": "4205",
+      "code": "420500000000",
+      "level": "prefecture",
+      "name": "宜昌",
+      "fullName": "宜昌市",
+      "provinceName": "湖北省",
+      "longitude": 111.281301,
+      "latitude": 30.694608
+    },
+    {
+      "id": "4206",
+      "code": "420600000000",
+      "level": "prefecture",
+      "name": "襄阳",
+      "fullName": "襄阳市",
+      "provinceName": "湖北省",
+      "longitude": 112.115661,
+      "latitude": 32.012117
+    },
+    {
+      "id": "4207",
+      "code": "420700000000",
+      "level": "prefecture",
+      "name": "鄂州",
+      "fullName": "鄂州市",
+      "provinceName": "湖北省",
+      "longitude": 114.889868,
+      "latitude": 30.394157
+    },
+    {
+      "id": "4208",
+      "code": "420800000000",
+      "level": "prefecture",
+      "name": "荆门",
+      "fullName": "荆门市",
+      "provinceName": "湖北省",
+      "longitude": 112.193181,
+      "latitude": 31.037659
+    },
+    {
+      "id": "4209",
+      "code": "420900000000",
+      "level": "prefecture",
+      "name": "孝感",
+      "fullName": "孝感市",
+      "provinceName": "湖北省",
+      "longitude": 113.951438,
+      "latitude": 30.920732
+    },
+    {
+      "id": "4210",
+      "code": "421000000000",
+      "level": "prefecture",
+      "name": "荆州",
+      "fullName": "荆州市",
+      "provinceName": "湖北省",
+      "longitude": 112.23572,
+      "latitude": 30.338839
+    },
+    {
+      "id": "4211",
+      "code": "421100000000",
+      "level": "prefecture",
+      "name": "黄冈",
+      "fullName": "黄冈市",
+      "provinceName": "湖北省",
+      "longitude": 114.867363,
+      "latitude": 30.456388
+    },
+    {
+      "id": "4212",
+      "code": "421200000000",
+      "level": "prefecture",
+      "name": "咸宁",
+      "fullName": "咸宁市",
+      "provinceName": "湖北省",
+      "longitude": 114.317194,
+      "latitude": 29.843815
+    },
+    {
+      "id": "4213",
+      "code": "421300000000",
+      "level": "prefecture",
+      "name": "随州",
+      "fullName": "随州市",
+      "provinceName": "湖北省",
+      "longitude": 113.376107,
+      "latitude": 31.692149
+    },
+    {
+      "id": "4228",
+      "code": "422800000000",
+      "level": "prefecture",
+      "name": "恩施",
+      "fullName": "恩施土家族苗族自治州",
+      "provinceName": "湖北省",
+      "longitude": 109.483206,
+      "latitude": 30.274673
+    },
+    {
+      "id": "429004",
+      "code": "429004000000",
+      "level": "prefecture",
+      "name": "仙桃",
+      "fullName": "仙桃市",
+      "provinceName": "湖北省",
+      "longitude": 113.436924,
+      "latitude": 30.330802
+    },
+    {
+      "id": "429005",
+      "code": "429005000000",
+      "level": "prefecture",
+      "name": "潜江",
+      "fullName": "潜江市",
+      "provinceName": "湖北省",
+      "longitude": 112.894697,
+      "latitude": 30.404677
+    },
+    {
+      "id": "429006",
+      "code": "429006000000",
+      "level": "prefecture",
+      "name": "天门",
+      "fullName": "天门市",
+      "provinceName": "湖北省",
+      "longitude": 113.160526,
+      "latitude": 30.666051
+    },
+    {
+      "id": "429021",
+      "code": "429021000000",
+      "level": "prefecture",
+      "name": "神农架",
+      "fullName": "神农架林区",
+      "provinceName": "湖北省",
+      "longitude": 110.670786,
+      "latitude": 31.747288
+    },
+    {
+      "id": "4301",
+      "code": "430100000000",
+      "level": "prefecture",
+      "name": "长沙",
+      "fullName": "长沙市",
+      "provinceName": "湖南省",
+      "longitude": 112.933432,
+      "latitude": 28.231811
+    },
+    {
+      "id": "4302",
+      "code": "430200000000",
+      "level": "prefecture",
+      "name": "株洲",
+      "fullName": "株洲市",
+      "provinceName": "湖南省",
+      "longitude": 113.126953,
+      "latitude": 27.832002
+    },
+    {
+      "id": "4303",
+      "code": "430300000000",
+      "level": "prefecture",
+      "name": "湘潭",
+      "fullName": "湘潭市",
+      "provinceName": "湖南省",
+      "longitude": 112.940005,
+      "latitude": 27.834807
+    },
+    {
+      "id": "4304",
+      "code": "430400000000",
+      "level": "prefecture",
+      "name": "衡阳",
+      "fullName": "衡阳市",
+      "provinceName": "湖南省",
+      "longitude": 112.566781,
+      "latitude": 26.897801
+    },
+    {
+      "id": "4305",
+      "code": "430500000000",
+      "level": "prefecture",
+      "name": "邵阳",
+      "fullName": "邵阳市",
+      "provinceName": "湖南省",
+      "longitude": 111.462292,
+      "latitude": 27.242773
+    },
+    {
+      "id": "4306",
+      "code": "430600000000",
+      "level": "prefecture",
+      "name": "岳阳",
+      "fullName": "岳阳市",
+      "provinceName": "湖南省",
+      "longitude": 113.122958,
+      "latitude": 29.359036
+    },
+    {
+      "id": "4307",
+      "code": "430700000000",
+      "level": "prefecture",
+      "name": "常德",
+      "fullName": "常德市",
+      "provinceName": "湖南省",
+      "longitude": 111.693439,
+      "latitude": 29.03447
+    },
+    {
+      "id": "4308",
+      "code": "430800000000",
+      "level": "prefecture",
+      "name": "张家界",
+      "fullName": "张家界市",
+      "provinceName": "湖南省",
+      "longitude": 110.473944,
+      "latitude": 29.120207
+    },
+    {
+      "id": "4309",
+      "code": "430900000000",
+      "level": "prefecture",
+      "name": "益阳",
+      "fullName": "益阳市",
+      "provinceName": "湖南省",
+      "longitude": 112.350283,
+      "latitude": 28.558001
+    },
+    {
+      "id": "4310",
+      "code": "431000000000",
+      "level": "prefecture",
+      "name": "郴州",
+      "fullName": "郴州市",
+      "provinceName": "湖南省",
+      "longitude": 113.010007,
+      "latitude": 25.773073
+    },
+    {
+      "id": "4311",
+      "code": "431100000000",
+      "level": "prefecture",
+      "name": "永州",
+      "fullName": "永州市",
+      "provinceName": "湖南省",
+      "longitude": 111.608236,
+      "latitude": 26.423447
+    },
+    {
+      "id": "4312",
+      "code": "431200000000",
+      "level": "prefecture",
+      "name": "怀化",
+      "fullName": "怀化市",
+      "provinceName": "湖南省",
+      "longitude": 109.996908,
+      "latitude": 27.573121
+    },
+    {
+      "id": "4313",
+      "code": "431300000000",
+      "level": "prefecture",
+      "name": "娄底",
+      "fullName": "娄底市",
+      "provinceName": "湖南省",
+      "longitude": 111.988951,
+      "latitude": 27.703151
+    },
+    {
+      "id": "4331",
+      "code": "433100000000",
+      "level": "prefecture",
+      "name": "湘西",
+      "fullName": "湘西土家族苗族自治州",
+      "provinceName": "湖南省",
+      "longitude": 109.668726,
+      "latitude": 28.219467
+    },
+    {
+      "id": "4401",
+      "code": "440100000000",
+      "level": "prefecture",
+      "name": "广州",
+      "fullName": "广州市",
+      "provinceName": "广东省",
+      "longitude": 113.259169,
+      "latitude": 23.132737
+    },
+    {
+      "id": "4402",
+      "code": "440200000000",
+      "level": "prefecture",
+      "name": "韶关",
+      "fullName": "韶关市",
+      "provinceName": "广东省",
+      "longitude": 113.592134,
+      "latitude": 24.814038
+    },
+    {
+      "id": "4403",
+      "code": "440300000000",
+      "level": "prefecture",
+      "name": "深圳",
+      "fullName": "深圳市",
+      "provinceName": "广东省",
+      "longitude": 114.052825,
+      "latitude": 22.546244
+    },
+    {
+      "id": "4404",
+      "code": "440400000000",
+      "level": "prefecture",
+      "name": "珠海",
+      "fullName": "珠海市",
+      "provinceName": "广东省",
+      "longitude": 113.571853,
+      "latitude": 22.27466
+    },
+    {
+      "id": "4405",
+      "code": "440500000000",
+      "level": "prefecture",
+      "name": "汕头",
+      "fullName": "汕头市",
+      "provinceName": "广东省",
+      "longitude": 116.677488,
+      "latitude": 23.356809
+    },
+    {
+      "id": "4406",
+      "code": "440600000000",
+      "level": "prefecture",
+      "name": "佛山",
+      "fullName": "佛山市",
+      "provinceName": "广东省",
+      "longitude": 113.116103,
+      "latitude": 23.023904
+    },
+    {
+      "id": "4407",
+      "code": "440700000000",
+      "level": "prefecture",
+      "name": "江门",
+      "fullName": "江门市",
+      "provinceName": "广东省",
+      "longitude": 113.076099,
+      "latitude": 22.581639
+    },
+    {
+      "id": "4408",
+      "code": "440800000000",
+      "level": "prefecture",
+      "name": "湛江",
+      "fullName": "湛江市",
+      "provinceName": "广东省",
+      "longitude": 110.353045,
+      "latitude": 21.272493
+    },
+    {
+      "id": "4409",
+      "code": "440900000000",
+      "level": "prefecture",
+      "name": "茂名",
+      "fullName": "茂名市",
+      "provinceName": "广东省",
+      "longitude": 110.921021,
+      "latitude": 21.665504
+    },
+    {
+      "id": "4412",
+      "code": "441200000000",
+      "level": "prefecture",
+      "name": "肇庆",
+      "fullName": "肇庆市",
+      "provinceName": "广东省",
+      "longitude": 112.45999,
+      "latitude": 23.050368
+    },
+    {
+      "id": "4413",
+      "code": "441300000000",
+      "level": "prefecture",
+      "name": "惠州",
+      "fullName": "惠州市",
+      "provinceName": "广东省",
+      "longitude": 114.410619,
+      "latitude": 23.114865
+    },
+    {
+      "id": "4414",
+      "code": "441400000000",
+      "level": "prefecture",
+      "name": "梅州",
+      "fullName": "梅州市",
+      "provinceName": "广东省",
+      "longitude": 116.11722,
+      "latitude": 24.291459
+    },
+    {
+      "id": "4415",
+      "code": "441500000000",
+      "level": "prefecture",
+      "name": "汕尾",
+      "fullName": "汕尾市",
+      "provinceName": "广东省",
+      "longitude": 115.370615,
+      "latitude": 22.789838
+    },
+    {
+      "id": "4416",
+      "code": "441600000000",
+      "level": "prefecture",
+      "name": "河源",
+      "fullName": "河源市",
+      "provinceName": "广东省",
+      "longitude": 114.695515,
+      "latitude": 23.746927
+    },
+    {
+      "id": "4417",
+      "code": "441700000000",
+      "level": "prefecture",
+      "name": "阳江",
+      "fullName": "阳江市",
+      "provinceName": "广东省",
+      "longitude": 111.978351,
+      "latitude": 21.85958
+    },
+    {
+      "id": "4418",
+      "code": "441800000000",
+      "level": "prefecture",
+      "name": "清远",
+      "fullName": "清远市",
+      "provinceName": "广东省",
+      "longitude": 113.050616,
+      "latitude": 23.684524
+    },
+    {
+      "id": "4419",
+      "code": "441900000000",
+      "level": "prefecture",
+      "name": "东莞",
+      "fullName": "东莞市",
+      "provinceName": "广东省",
+      "longitude": 113.746691,
+      "latitude": 23.023738
+    },
+    {
+      "id": "4420",
+      "code": "442000000000",
+      "level": "prefecture",
+      "name": "中山",
+      "fullName": "中山市",
+      "provinceName": "广东省",
+      "longitude": 113.387035,
+      "latitude": 22.519713
+    },
+    {
+      "id": "4451",
+      "code": "445100000000",
+      "level": "prefecture",
+      "name": "潮州",
+      "fullName": "潮州市",
+      "provinceName": "广东省",
+      "longitude": 116.617537,
+      "latitude": 23.660409
+    },
+    {
+      "id": "4452",
+      "code": "445200000000",
+      "level": "prefecture",
+      "name": "揭阳",
+      "fullName": "揭阳市",
+      "provinceName": "广东省",
+      "longitude": 116.368023,
+      "latitude": 23.553365
+    },
+    {
+      "id": "4453",
+      "code": "445300000000",
+      "level": "prefecture",
+      "name": "云浮",
+      "fullName": "云浮市",
+      "provinceName": "广东省",
+      "longitude": 112.039203,
+      "latitude": 22.917821
+    },
+    {
+      "id": "4501",
+      "code": "450100000000",
+      "level": "prefecture",
+      "name": "南宁",
+      "fullName": "南宁市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 108.362336,
+      "latitude": 22.820386
+    },
+    {
+      "id": "4502",
+      "code": "450200000000",
+      "level": "prefecture",
+      "name": "柳州",
+      "fullName": "柳州市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 109.423471,
+      "latitude": 24.329142
+    },
+    {
+      "id": "4503",
+      "code": "450300000000",
+      "level": "prefecture",
+      "name": "桂林",
+      "fullName": "桂林市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 110.175128,
+      "latitude": 25.2384
+    },
+    {
+      "id": "4504",
+      "code": "450400000000",
+      "level": "prefecture",
+      "name": "梧州",
+      "fullName": "梧州市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 111.273914,
+      "latitude": 23.479325
+    },
+    {
+      "id": "4505",
+      "code": "450500000000",
+      "level": "prefecture",
+      "name": "北海",
+      "fullName": "北海市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 109.115955,
+      "latitude": 21.483693
+    },
+    {
+      "id": "4506",
+      "code": "450600000000",
+      "level": "prefecture",
+      "name": "防城港",
+      "fullName": "防城港市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 108.350675,
+      "latitude": 21.689218
+    },
+    {
+      "id": "4507",
+      "code": "450700000000",
+      "level": "prefecture",
+      "name": "钦州",
+      "fullName": "钦州市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 108.650598,
+      "latitude": 21.983779
+    },
+    {
+      "id": "4508",
+      "code": "450800000000",
+      "level": "prefecture",
+      "name": "贵港",
+      "fullName": "贵港市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 109.594712,
+      "latitude": 23.114721
+    },
+    {
+      "id": "4509",
+      "code": "450900000000",
+      "level": "prefecture",
+      "name": "玉林",
+      "fullName": "玉林市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 110.176503,
+      "latitude": 22.656803
+    },
+    {
+      "id": "4510",
+      "code": "451000000000",
+      "level": "prefecture",
+      "name": "百色",
+      "fullName": "百色市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 106.615278,
+      "latitude": 23.905974
+    },
+    {
+      "id": "4511",
+      "code": "451100000000",
+      "level": "prefecture",
+      "name": "贺州",
+      "fullName": "贺州市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 111.562103,
+      "latitude": 24.407219
+    },
+    {
+      "id": "4512",
+      "code": "451200000000",
+      "level": "prefecture",
+      "name": "河池",
+      "fullName": "河池市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 108.632541,
+      "latitude": 24.488301
+    },
+    {
+      "id": "4513",
+      "code": "451300000000",
+      "level": "prefecture",
+      "name": "来宾",
+      "fullName": "来宾市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 109.216941,
+      "latitude": 23.752744
+    },
+    {
+      "id": "4514",
+      "code": "451400000000",
+      "level": "prefecture",
+      "name": "崇左",
+      "fullName": "崇左市",
+      "provinceName": "广西壮族自治区",
+      "longitude": 107.360817,
+      "latitude": 22.379888
+    },
+    {
+      "id": "4601",
+      "code": "460100000000",
+      "level": "prefecture",
+      "name": "海口",
+      "fullName": "海口市",
+      "provinceName": "海南省",
+      "longitude": 110.19587,
+      "latitude": 20.048432
+    },
+    {
+      "id": "4602",
+      "code": "460200000000",
+      "level": "prefecture",
+      "name": "三亚",
+      "fullName": "三亚市",
+      "provinceName": "海南省",
+      "longitude": 109.507624,
+      "latitude": 18.25457
+    },
+    {
+      "id": "4603",
+      "code": "460300000000",
+      "level": "prefecture",
+      "name": "三沙",
+      "fullName": "三沙市",
+      "provinceName": "海南省",
+      "longitude": 112.333737,
+      "latitude": 16.832635
+    },
+    {
+      "id": "4604",
+      "code": "460400000000",
+      "level": "prefecture",
+      "name": "儋州",
+      "fullName": "儋州市",
+      "provinceName": "海南省",
+      "longitude": 109.576802,
+      "latitude": 19.522922
+    },
+    {
+      "id": "469001",
+      "code": "469001000000",
+      "level": "prefecture",
+      "name": "五指山",
+      "fullName": "五指山市",
+      "provinceName": "海南省",
+      "longitude": 109.512689,
+      "latitude": 18.776623
+    },
+    {
+      "id": "469002",
+      "code": "469002000000",
+      "level": "prefecture",
+      "name": "琼海",
+      "fullName": "琼海市",
+      "provinceName": "海南省",
+      "longitude": 110.470175,
+      "latitude": 19.260759
+    },
+    {
+      "id": "469005",
+      "code": "469005000000",
+      "level": "prefecture",
+      "name": "文昌",
+      "fullName": "文昌市",
+      "provinceName": "海南省",
+      "longitude": 110.793037,
+      "latitude": 19.546074
+    },
+    {
+      "id": "469006",
+      "code": "469006000000",
+      "level": "prefecture",
+      "name": "万宁",
+      "fullName": "万宁市",
+      "provinceName": "海南省",
+      "longitude": 110.388194,
+      "latitude": 18.795255
+    },
+    {
+      "id": "469007",
+      "code": "469007000000",
+      "level": "prefecture",
+      "name": "东方",
+      "fullName": "东方市",
+      "provinceName": "海南省",
+      "longitude": 108.648212,
+      "latitude": 19.097044
+    },
+    {
+      "id": "469021",
+      "code": "469021000000",
+      "level": "prefecture",
+      "name": "定安",
+      "fullName": "定安县",
+      "provinceName": "海南省",
+      "longitude": 110.353592,
+      "latitude": 19.682945
+    },
+    {
+      "id": "469022",
+      "code": "469022000000",
+      "level": "prefecture",
+      "name": "屯昌",
+      "fullName": "屯昌县",
+      "provinceName": "海南省",
+      "longitude": 110.097265,
+      "latitude": 19.353215
+    },
+    {
+      "id": "469023",
+      "code": "469023000000",
+      "level": "prefecture",
+      "name": "澄迈",
+      "fullName": "澄迈县",
+      "provinceName": "海南省",
+      "longitude": 110.003246,
+      "latitude": 19.74078
+    },
+    {
+      "id": "469024",
+      "code": "469024000000",
+      "level": "prefecture",
+      "name": "临高",
+      "fullName": "临高县",
+      "provinceName": "海南省",
+      "longitude": 109.686338,
+      "latitude": 19.914136
+    },
+    {
+      "id": "469025",
+      "code": "469025000000",
+      "level": "prefecture",
+      "name": "白沙",
+      "fullName": "白沙黎族自治县",
+      "provinceName": "海南省",
+      "longitude": 109.438597,
+      "latitude": 19.223216
+    },
+    {
+      "id": "469026",
+      "code": "469026000000",
+      "level": "prefecture",
+      "name": "昌江",
+      "fullName": "昌江黎族自治县",
+      "provinceName": "海南省",
+      "longitude": 109.051668,
+      "latitude": 19.299726
+    },
+    {
+      "id": "469027",
+      "code": "469027000000",
+      "level": "prefecture",
+      "name": "乐东",
+      "fullName": "乐东黎族自治县",
+      "provinceName": "海南省",
+      "longitude": 109.169285,
+      "latitude": 18.751719
+    },
+    {
+      "id": "469028",
+      "code": "469028000000",
+      "level": "prefecture",
+      "name": "陵水",
+      "fullName": "陵水黎族自治县",
+      "provinceName": "海南省",
+      "longitude": 110.033276,
+      "latitude": 18.507671
+    },
+    {
+      "id": "469029",
+      "code": "469029000000",
+      "level": "prefecture",
+      "name": "保亭",
+      "fullName": "保亭黎族苗族自治县",
+      "provinceName": "海南省",
+      "longitude": 109.696153,
+      "latitude": 18.642128
+    },
+    {
+      "id": "469030",
+      "code": "469030000000",
+      "level": "prefecture",
+      "name": "琼中",
+      "fullName": "琼中黎族苗族自治县",
+      "provinceName": "海南省",
+      "longitude": 109.834347,
+      "latitude": 19.035108
+    },
+    {
+      "id": "5001",
+      "code": "500100000000",
+      "level": "prefecture",
+      "name": "重庆城区",
+      "fullName": "重庆城区",
+      "provinceName": "重庆市",
+      "longitude": 106.501129,
+      "latitude": 29.535893
+    },
+    {
+      "id": "5002",
+      "code": "500200000000",
+      "level": "prefecture",
+      "name": "重庆郊县",
+      "fullName": "重庆郊县",
+      "provinceName": "重庆市",
+      "longitude": 108.165836,
+      "latitude": 29.294696
+    },
+    {
+      "id": "5101",
+      "code": "510100000000",
+      "level": "prefecture",
+      "name": "成都",
+      "fullName": "成都市",
+      "provinceName": "四川省",
+      "longitude": 104.063796,
+      "latitude": 30.575416
+    },
+    {
+      "id": "5103",
+      "code": "510300000000",
+      "level": "prefecture",
+      "name": "自贡",
+      "fullName": "自贡市",
+      "provinceName": "四川省",
+      "longitude": 104.776611,
+      "latitude": 29.3421
+    },
+    {
+      "id": "5104",
+      "code": "510400000000",
+      "level": "prefecture",
+      "name": "攀枝花",
+      "fullName": "攀枝花市",
+      "provinceName": "四川省",
+      "longitude": 101.727533,
+      "latitude": 26.562199
+    },
+    {
+      "id": "5105",
+      "code": "510500000000",
+      "level": "prefecture",
+      "name": "泸州",
+      "fullName": "泸州市",
+      "provinceName": "四川省",
+      "longitude": 105.438274,
+      "latitude": 28.874018
+    },
+    {
+      "id": "5106",
+      "code": "510600000000",
+      "level": "prefecture",
+      "name": "德阳",
+      "fullName": "德阳市",
+      "provinceName": "四川省",
+      "longitude": 104.395113,
+      "latitude": 31.12959
+    },
+    {
+      "id": "5107",
+      "code": "510700000000",
+      "level": "prefecture",
+      "name": "绵阳",
+      "fullName": "绵阳市",
+      "provinceName": "四川省",
+      "longitude": 104.67651,
+      "latitude": 31.469949
+    },
+    {
+      "id": "5108",
+      "code": "510800000000",
+      "level": "prefecture",
+      "name": "广元",
+      "fullName": "广元市",
+      "provinceName": "四川省",
+      "longitude": 105.8403,
+      "latitude": 32.438175
+    },
+    {
+      "id": "5109",
+      "code": "510900000000",
+      "level": "prefecture",
+      "name": "遂宁",
+      "fullName": "遂宁市",
+      "provinceName": "四川省",
+      "longitude": 105.589193,
+      "latitude": 30.535474
+    },
+    {
+      "id": "5110",
+      "code": "511000000000",
+      "level": "prefecture",
+      "name": "内江",
+      "fullName": "内江市",
+      "provinceName": "四川省",
+      "longitude": 105.054766,
+      "latitude": 29.582787
+    },
+    {
+      "id": "5111",
+      "code": "511100000000",
+      "level": "prefecture",
+      "name": "乐山",
+      "fullName": "乐山市",
+      "provinceName": "四川省",
+      "longitude": 103.763876,
+      "latitude": 29.555032
+    },
+    {
+      "id": "5113",
+      "code": "511300000000",
+      "level": "prefecture",
+      "name": "南充",
+      "fullName": "南充市",
+      "provinceName": "四川省",
+      "longitude": 106.106546,
+      "latitude": 30.839517
+    },
+    {
+      "id": "5114",
+      "code": "511400000000",
+      "level": "prefecture",
+      "name": "眉山",
+      "fullName": "眉山市",
+      "provinceName": "四川省",
+      "longitude": 103.846315,
+      "latitude": 30.079934
+    },
+    {
+      "id": "5115",
+      "code": "511500000000",
+      "level": "prefecture",
+      "name": "宜宾",
+      "fullName": "宜宾市",
+      "provinceName": "四川省",
+      "longitude": 104.640444,
+      "latitude": 28.755782
+    },
+    {
+      "id": "5116",
+      "code": "511600000000",
+      "level": "prefecture",
+      "name": "广安",
+      "fullName": "广安市",
+      "provinceName": "四川省",
+      "longitude": 106.628857,
+      "latitude": 30.459131
+    },
+    {
+      "id": "5117",
+      "code": "511700000000",
+      "level": "prefecture",
+      "name": "达州",
+      "fullName": "达州市",
+      "provinceName": "四川省",
+      "longitude": 107.463124,
+      "latitude": 31.211424
+    },
+    {
+      "id": "5118",
+      "code": "511800000000",
+      "level": "prefecture",
+      "name": "雅安",
+      "fullName": "雅安市",
+      "provinceName": "四川省",
+      "longitude": 103.039561,
+      "latitude": 30.012582
+    },
+    {
+      "id": "5119",
+      "code": "511900000000",
+      "level": "prefecture",
+      "name": "巴中",
+      "fullName": "巴中市",
+      "provinceName": "四川省",
+      "longitude": 106.743403,
+      "latitude": 31.870034
+    },
+    {
+      "id": "5120",
+      "code": "512000000000",
+      "level": "prefecture",
+      "name": "资阳",
+      "fullName": "资阳市",
+      "provinceName": "四川省",
+      "longitude": 104.624862,
+      "latitude": 30.132084
+    },
+    {
+      "id": "5132",
+      "code": "513200000000",
+      "level": "prefecture",
+      "name": "阿坝",
+      "fullName": "阿坝藏族羌族自治州",
+      "provinceName": "四川省",
+      "longitude": 102.22286,
+      "latitude": 31.901672
+    },
+    {
+      "id": "5133",
+      "code": "513300000000",
+      "level": "prefecture",
+      "name": "甘孜",
+      "fullName": "甘孜藏族自治州",
+      "provinceName": "四川省",
+      "longitude": 101.960791,
+      "latitude": 30.052341
+    },
+    {
+      "id": "5134",
+      "code": "513400000000",
+      "level": "prefecture",
+      "name": "凉山",
+      "fullName": "凉山彝族自治州",
+      "provinceName": "四川省",
+      "longitude": 102.266218,
+      "latitude": 27.884828
+    },
+    {
+      "id": "5201",
+      "code": "520100000000",
+      "level": "prefecture",
+      "name": "贵阳",
+      "fullName": "贵阳市",
+      "provinceName": "贵州省",
+      "longitude": 106.624636,
+      "latitude": 26.650366
+    },
+    {
+      "id": "5202",
+      "code": "520200000000",
+      "level": "prefecture",
+      "name": "六盘水",
+      "fullName": "六盘水市",
+      "provinceName": "贵州省",
+      "longitude": 104.827819,
+      "latitude": 26.596158
+    },
+    {
+      "id": "5203",
+      "code": "520300000000",
+      "level": "prefecture",
+      "name": "遵义",
+      "fullName": "遵义市",
+      "provinceName": "贵州省",
+      "longitude": 107.027727,
+      "latitude": 27.725197
+    },
+    {
+      "id": "5204",
+      "code": "520400000000",
+      "level": "prefecture",
+      "name": "安顺",
+      "fullName": "安顺市",
+      "provinceName": "贵州省",
+      "longitude": 105.944234,
+      "latitude": 26.256633
+    },
+    {
+      "id": "5205",
+      "code": "520500000000",
+      "level": "prefecture",
+      "name": "毕节",
+      "fullName": "毕节市",
+      "provinceName": "贵州省",
+      "longitude": 105.288307,
+      "latitude": 27.286984
+    },
+    {
+      "id": "5206",
+      "code": "520600000000",
+      "level": "prefecture",
+      "name": "铜仁",
+      "fullName": "铜仁市",
+      "provinceName": "贵州省",
+      "longitude": 109.184949,
+      "latitude": 27.734827
+    },
+    {
+      "id": "5223",
+      "code": "522300000000",
+      "level": "prefecture",
+      "name": "黔西南",
+      "fullName": "黔西南布依族苗族自治州",
+      "provinceName": "贵州省",
+      "longitude": 104.903952,
+      "latitude": 25.090842
+    },
+    {
+      "id": "5226",
+      "code": "522600000000",
+      "level": "prefecture",
+      "name": "黔东南",
+      "fullName": "黔东南苗族侗族自治州",
+      "provinceName": "贵州省",
+      "longitude": 107.978701,
+      "latitude": 26.587295
+    },
+    {
+      "id": "5227",
+      "code": "522700000000",
+      "level": "prefecture",
+      "name": "黔南",
+      "fullName": "黔南布依族苗族自治州",
+      "provinceName": "贵州省",
+      "longitude": 107.518139,
+      "latitude": 26.256575
+    },
+    {
+      "id": "5301",
+      "code": "530100000000",
+      "level": "prefecture",
+      "name": "昆明",
+      "fullName": "昆明市",
+      "provinceName": "云南省",
+      "longitude": 102.832254,
+      "latitude": 24.884561
+    },
+    {
+      "id": "5303",
+      "code": "530300000000",
+      "level": "prefecture",
+      "name": "曲靖",
+      "fullName": "曲靖市",
+      "provinceName": "云南省",
+      "longitude": 103.794265,
+      "latitude": 25.493868
+    },
+    {
+      "id": "5304",
+      "code": "530400000000",
+      "level": "prefecture",
+      "name": "玉溪",
+      "fullName": "玉溪市",
+      "provinceName": "云南省",
+      "longitude": 102.525371,
+      "latitude": 24.3498
+    },
+    {
+      "id": "5305",
+      "code": "530500000000",
+      "level": "prefecture",
+      "name": "保山",
+      "fullName": "保山市",
+      "provinceName": "云南省",
+      "longitude": 99.16057,
+      "latitude": 25.114875
+    },
+    {
+      "id": "5306",
+      "code": "530600000000",
+      "level": "prefecture",
+      "name": "昭通",
+      "fullName": "昭通市",
+      "provinceName": "云南省",
+      "longitude": 103.714985,
+      "latitude": 27.34161
+    },
+    {
+      "id": "5307",
+      "code": "530700000000",
+      "level": "prefecture",
+      "name": "丽江",
+      "fullName": "丽江市",
+      "provinceName": "云南省",
+      "longitude": 100.224803,
+      "latitude": 26.85871
+    },
+    {
+      "id": "5308",
+      "code": "530800000000",
+      "level": "prefecture",
+      "name": "普洱",
+      "fullName": "普洱市",
+      "provinceName": "云南省",
+      "longitude": 100.964836,
+      "latitude": 22.828222
+    },
+    {
+      "id": "5309",
+      "code": "530900000000",
+      "level": "prefecture",
+      "name": "临沧",
+      "fullName": "临沧市",
+      "provinceName": "云南省",
+      "longitude": 100.087585,
+      "latitude": 23.886762
+    },
+    {
+      "id": "5323",
+      "code": "532300000000",
+      "level": "prefecture",
+      "name": "楚雄",
+      "fullName": "楚雄彝族自治州",
+      "provinceName": "云南省",
+      "longitude": 101.526835,
+      "latitude": 25.048717
+    },
+    {
+      "id": "5325",
+      "code": "532500000000",
+      "level": "prefecture",
+      "name": "红河",
+      "fullName": "红河哈尼族彝族自治州",
+      "provinceName": "云南省",
+      "longitude": 103.372849,
+      "latitude": 23.365643
+    },
+    {
+      "id": "5326",
+      "code": "532600000000",
+      "level": "prefecture",
+      "name": "文山",
+      "fullName": "文山壮族苗族自治州",
+      "provinceName": "云南省",
+      "longitude": 104.213569,
+      "latitude": 23.403633
+    },
+    {
+      "id": "5328",
+      "code": "532800000000",
+      "level": "prefecture",
+      "name": "西双版纳",
+      "fullName": "西双版纳傣族自治州",
+      "provinceName": "云南省",
+      "longitude": 100.795878,
+      "latitude": 22.011897
+    },
+    {
+      "id": "5329",
+      "code": "532900000000",
+      "level": "prefecture",
+      "name": "大理",
+      "fullName": "大理白族自治州",
+      "provinceName": "云南省",
+      "longitude": 100.26651,
+      "latitude": 25.609582
+    },
+    {
+      "id": "5331",
+      "code": "533100000000",
+      "level": "prefecture",
+      "name": "德宏",
+      "fullName": "德宏傣族景颇族自治州",
+      "provinceName": "云南省",
+      "longitude": 98.585468,
+      "latitude": 24.436318
+    },
+    {
+      "id": "5333",
+      "code": "533300000000",
+      "level": "prefecture",
+      "name": "怒江",
+      "fullName": "怒江傈僳族自治州",
+      "provinceName": "云南省",
+      "longitude": 98.856208,
+      "latitude": 25.820871
+    },
+    {
+      "id": "5334",
+      "code": "533400000000",
+      "level": "prefecture",
+      "name": "迪庆",
+      "fullName": "迪庆藏族自治州",
+      "provinceName": "云南省",
+      "longitude": 99.701017,
+      "latitude": 27.822645
+    },
+    {
+      "id": "5401",
+      "code": "540100000000",
+      "level": "prefecture",
+      "name": "拉萨",
+      "fullName": "拉萨市",
+      "provinceName": "西藏自治区",
+      "longitude": 91.170456,
+      "latitude": 29.65628
+    },
+    {
+      "id": "5402",
+      "code": "540200000000",
+      "level": "prefecture",
+      "name": "日喀则",
+      "fullName": "日喀则市",
+      "provinceName": "西藏自治区",
+      "longitude": 88.878388,
+      "latitude": 29.270103
+    },
+    {
+      "id": "5403",
+      "code": "540300000000",
+      "level": "prefecture",
+      "name": "昌都",
+      "fullName": "昌都市",
+      "provinceName": "西藏自治区",
+      "longitude": 97.169886,
+      "latitude": 31.145201
+    },
+    {
+      "id": "5404",
+      "code": "540400000000",
+      "level": "prefecture",
+      "name": "林芝",
+      "fullName": "林芝市",
+      "provinceName": "西藏自治区",
+      "longitude": 94.360271,
+      "latitude": 29.65144
+    },
+    {
+      "id": "5405",
+      "code": "540500000000",
+      "level": "prefecture",
+      "name": "山南",
+      "fullName": "山南市",
+      "provinceName": "西藏自治区",
+      "longitude": 91.770212,
+      "latitude": 29.240804
+    },
+    {
+      "id": "5406",
+      "code": "540600000000",
+      "level": "prefecture",
+      "name": "那曲",
+      "fullName": "那曲市",
+      "provinceName": "西藏自治区",
+      "longitude": 92.05023,
+      "latitude": 31.480143
+    },
+    {
+      "id": "5425",
+      "code": "542500000000",
+      "level": "prefecture",
+      "name": "阿里",
+      "fullName": "阿里地区",
+      "provinceName": "西藏自治区",
+      "longitude": 80.10357,
+      "latitude": 32.503469
+    },
+    {
+      "id": "6101",
+      "code": "610100000000",
+      "level": "prefecture",
+      "name": "西安",
+      "fullName": "西安市",
+      "provinceName": "陕西省",
+      "longitude": 108.93499,
+      "latitude": 34.344762
+    },
+    {
+      "id": "6102",
+      "code": "610200000000",
+      "level": "prefecture",
+      "name": "铜川",
+      "fullName": "铜川市",
+      "provinceName": "陕西省",
+      "longitude": 108.9404,
+      "latitude": 34.898217
+    },
+    {
+      "id": "6103",
+      "code": "610300000000",
+      "level": "prefecture",
+      "name": "宝鸡",
+      "fullName": "宝鸡市",
+      "provinceName": "陕西省",
+      "longitude": 107.23299,
+      "latitude": 34.364281
+    },
+    {
+      "id": "6104",
+      "code": "610400000000",
+      "level": "prefecture",
+      "name": "咸阳",
+      "fullName": "咸阳市",
+      "provinceName": "陕西省",
+      "longitude": 108.704164,
+      "latitude": 34.331338
+    },
+    {
+      "id": "6105",
+      "code": "610500000000",
+      "level": "prefecture",
+      "name": "渭南",
+      "fullName": "渭南市",
+      "provinceName": "陕西省",
+      "longitude": 109.465692,
+      "latitude": 34.521832
+    },
+    {
+      "id": "6106",
+      "code": "610600000000",
+      "level": "prefecture",
+      "name": "延安",
+      "fullName": "延安市",
+      "provinceName": "陕西省",
+      "longitude": 109.489287,
+      "latitude": 36.64999
+    },
+    {
+      "id": "6107",
+      "code": "610700000000",
+      "level": "prefecture",
+      "name": "汉中",
+      "fullName": "汉中市",
+      "provinceName": "陕西省",
+      "longitude": 107.018669,
+      "latitude": 33.068261
+    },
+    {
+      "id": "6108",
+      "code": "610800000000",
+      "level": "prefecture",
+      "name": "榆林",
+      "fullName": "榆林市",
+      "provinceName": "陕西省",
+      "longitude": 109.728521,
+      "latitude": 38.285242
+    },
+    {
+      "id": "6109",
+      "code": "610900000000",
+      "level": "prefecture",
+      "name": "安康",
+      "fullName": "安康市",
+      "provinceName": "陕西省",
+      "longitude": 109.024152,
+      "latitude": 32.687506
+    },
+    {
+      "id": "6110",
+      "code": "611000000000",
+      "level": "prefecture",
+      "name": "商洛",
+      "fullName": "商洛市",
+      "provinceName": "陕西省",
+      "longitude": 109.913689,
+      "latitude": 33.875061
+    },
+    {
+      "id": "6201",
+      "code": "620100000000",
+      "level": "prefecture",
+      "name": "兰州",
+      "fullName": "兰州市",
+      "provinceName": "甘肃省",
+      "longitude": 103.831825,
+      "latitude": 36.061125
+    },
+    {
+      "id": "6202",
+      "code": "620200000000",
+      "level": "prefecture",
+      "name": "嘉峪关",
+      "fullName": "嘉峪关市",
+      "provinceName": "甘肃省",
+      "longitude": 98.287602,
+      "latitude": 39.772419
+    },
+    {
+      "id": "6203",
+      "code": "620300000000",
+      "level": "prefecture",
+      "name": "金昌",
+      "fullName": "金昌市",
+      "provinceName": "甘肃省",
+      "longitude": 102.185983,
+      "latitude": 38.52103
+    },
+    {
+      "id": "6204",
+      "code": "620400000000",
+      "level": "prefecture",
+      "name": "白银",
+      "fullName": "白银市",
+      "provinceName": "甘肃省",
+      "longitude": 104.136055,
+      "latitude": 36.545032
+    },
+    {
+      "id": "6205",
+      "code": "620500000000",
+      "level": "prefecture",
+      "name": "天水",
+      "fullName": "天水市",
+      "provinceName": "甘肃省",
+      "longitude": 105.720891,
+      "latitude": 34.582832
+    },
+    {
+      "id": "6206",
+      "code": "620600000000",
+      "level": "prefecture",
+      "name": "武威",
+      "fullName": "武威市",
+      "provinceName": "甘肃省",
+      "longitude": 102.636105,
+      "latitude": 37.928694
+    },
+    {
+      "id": "6207",
+      "code": "620700000000",
+      "level": "prefecture",
+      "name": "张掖",
+      "fullName": "张掖市",
+      "provinceName": "甘肃省",
+      "longitude": 100.448156,
+      "latitude": 38.924128
+    },
+    {
+      "id": "6208",
+      "code": "620800000000",
+      "level": "prefecture",
+      "name": "平凉",
+      "fullName": "平凉市",
+      "provinceName": "甘肃省",
+      "longitude": 106.66069,
+      "latitude": 35.542884
+    },
+    {
+      "id": "6209",
+      "code": "620900000000",
+      "level": "prefecture",
+      "name": "酒泉",
+      "fullName": "酒泉市",
+      "provinceName": "甘肃省",
+      "longitude": 98.493686,
+      "latitude": 39.732593
+    },
+    {
+      "id": "6210",
+      "code": "621000000000",
+      "level": "prefecture",
+      "name": "庆阳",
+      "fullName": "庆阳市",
+      "provinceName": "甘肃省",
+      "longitude": 107.63869,
+      "latitude": 35.709855
+    },
+    {
+      "id": "6211",
+      "code": "621100000000",
+      "level": "prefecture",
+      "name": "定西",
+      "fullName": "定西市",
+      "provinceName": "甘肃省",
+      "longitude": 104.589722,
+      "latitude": 35.608491
+    },
+    {
+      "id": "6212",
+      "code": "621200000000",
+      "level": "prefecture",
+      "name": "陇南",
+      "fullName": "陇南市",
+      "provinceName": "甘肃省",
+      "longitude": 104.95729,
+      "latitude": 33.372079
+    },
+    {
+      "id": "6229",
+      "code": "622900000000",
+      "level": "prefecture",
+      "name": "临夏",
+      "fullName": "临夏回族自治州",
+      "provinceName": "甘肃省",
+      "longitude": 103.208143,
+      "latitude": 35.602151
+    },
+    {
+      "id": "6230",
+      "code": "623000000000",
+      "level": "prefecture",
+      "name": "甘南",
+      "fullName": "甘南藏族自治州",
+      "provinceName": "甘肃省",
+      "longitude": 102.910012,
+      "latitude": 34.984404
+    },
+    {
+      "id": "6301",
+      "code": "630100000000",
+      "level": "prefecture",
+      "name": "西宁",
+      "fullName": "西宁市",
+      "provinceName": "青海省",
+      "longitude": 101.756293,
+      "latitude": 36.676061
+    },
+    {
+      "id": "6302",
+      "code": "630200000000",
+      "level": "prefecture",
+      "name": "海东",
+      "fullName": "海东市",
+      "provinceName": "青海省",
+      "longitude": 102.408621,
+      "latitude": 36.473392
+    },
+    {
+      "id": "6322",
+      "code": "632200000000",
+      "level": "prefecture",
+      "name": "海北",
+      "fullName": "海北藏族自治州",
+      "provinceName": "青海省",
+      "longitude": 100.89949,
+      "latitude": 36.954658
+    },
+    {
+      "id": "6323",
+      "code": "632300000000",
+      "level": "prefecture",
+      "name": "黄南",
+      "fullName": "黄南藏族自治州",
+      "provinceName": "青海省",
+      "longitude": 102.013511,
+      "latitude": 35.519731
+    },
+    {
+      "id": "6325",
+      "code": "632500000000",
+      "level": "prefecture",
+      "name": "海南",
+      "fullName": "海南藏族自治州",
+      "provinceName": "青海省",
+      "longitude": 100.621365,
+      "latitude": 36.296796
+    },
+    {
+      "id": "6326",
+      "code": "632600000000",
+      "level": "prefecture",
+      "name": "果洛",
+      "fullName": "果洛藏族自治州",
+      "provinceName": "青海省",
+      "longitude": 100.243821,
+      "latitude": 34.473658
+    },
+    {
+      "id": "6327",
+      "code": "632700000000",
+      "level": "prefecture",
+      "name": "玉树",
+      "fullName": "玉树藏族自治州",
+      "provinceName": "青海省",
+      "longitude": 97.005861,
+      "latitude": 33.008447
+    },
+    {
+      "id": "6328",
+      "code": "632800000000",
+      "level": "prefecture",
+      "name": "海西",
+      "fullName": "海西蒙古族藏族自治州",
+      "provinceName": "青海省",
+      "longitude": 97.331254,
+      "latitude": 37.347709
+    },
+    {
+      "id": "6401",
+      "code": "640100000000",
+      "level": "prefecture",
+      "name": "银川",
+      "fullName": "银川市",
+      "provinceName": "宁夏回族自治区",
+      "longitude": 106.226578,
+      "latitude": 38.487323
+    },
+    {
+      "id": "6402",
+      "code": "640200000000",
+      "level": "prefecture",
+      "name": "石嘴山",
+      "fullName": "石嘴山市",
+      "provinceName": "宁夏回族自治区",
+      "longitude": 106.378081,
+      "latitude": 38.98379
+    },
+    {
+      "id": "6403",
+      "code": "640300000000",
+      "level": "prefecture",
+      "name": "吴忠",
+      "fullName": "吴忠市",
+      "provinceName": "宁夏回族自治区",
+      "longitude": 106.194214,
+      "latitude": 37.997212
+    },
+    {
+      "id": "6404",
+      "code": "640400000000",
+      "level": "prefecture",
+      "name": "固原",
+      "fullName": "固原市",
+      "provinceName": "宁夏回族自治区",
+      "longitude": 106.238475,
+      "latitude": 36.016464
+    },
+    {
+      "id": "6405",
+      "code": "640500000000",
+      "level": "prefecture",
+      "name": "中卫",
+      "fullName": "中卫市",
+      "provinceName": "宁夏回族自治区",
+      "longitude": 105.193002,
+      "latitude": 37.499631
+    },
+    {
+      "id": "6501",
+      "code": "650100000000",
+      "level": "prefecture",
+      "name": "乌鲁木齐",
+      "fullName": "乌鲁木齐市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 87.613974,
+      "latitude": 43.824171
+    },
+    {
+      "id": "6502",
+      "code": "650200000000",
+      "level": "prefecture",
+      "name": "克拉玛依",
+      "fullName": "克拉玛依市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 84.886835,
+      "latitude": 45.576908
+    },
+    {
+      "id": "6504",
+      "code": "650400000000",
+      "level": "prefecture",
+      "name": "吐鲁番",
+      "fullName": "吐鲁番市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 89.247504,
+      "latitude": 42.971237
+    },
+    {
+      "id": "6505",
+      "code": "650500000000",
+      "level": "prefecture",
+      "name": "哈密",
+      "fullName": "哈密市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 93.513455,
+      "latitude": 42.817833
+    },
+    {
+      "id": "6523",
+      "code": "652300000000",
+      "level": "prefecture",
+      "name": "昌吉",
+      "fullName": "昌吉回族自治州",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 87.305882,
+      "latitude": 44.009726
+    },
+    {
+      "id": "6527",
+      "code": "652700000000",
+      "level": "prefecture",
+      "name": "博尔塔拉",
+      "fullName": "博尔塔拉蒙古自治州",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 82.063081,
+      "latitude": 44.905018
+    },
+    {
+      "id": "6528",
+      "code": "652800000000",
+      "level": "prefecture",
+      "name": "巴音郭楞",
+      "fullName": "巴音郭楞蒙古自治州",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 86.142645,
+      "latitude": 41.762611
+    },
+    {
+      "id": "6529",
+      "code": "652900000000",
+      "level": "prefecture",
+      "name": "阿克苏",
+      "fullName": "阿克苏地区",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 80.262897,
+      "latitude": 41.169727
+    },
+    {
+      "id": "6530",
+      "code": "653000000000",
+      "level": "prefecture",
+      "name": "克孜勒苏",
+      "fullName": "克孜勒苏柯尔克孜自治州",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 76.165119,
+      "latitude": 39.715823
+    },
+    {
+      "id": "6531",
+      "code": "653100000000",
+      "level": "prefecture",
+      "name": "喀什",
+      "fullName": "喀什地区",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 75.98766,
+      "latitude": 39.469986
+    },
+    {
+      "id": "6532",
+      "code": "653200000000",
+      "level": "prefecture",
+      "name": "和田",
+      "fullName": "和田地区",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 79.919729,
+      "latitude": 37.114747
+    },
+    {
+      "id": "6540",
+      "code": "654000000000",
+      "level": "prefecture",
+      "name": "伊犁",
+      "fullName": "伊犁哈萨克自治州",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 81.320643,
+      "latitude": 43.915855
+    },
+    {
+      "id": "6542",
+      "code": "654200000000",
+      "level": "prefecture",
+      "name": "塔城",
+      "fullName": "塔城地区",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 82.977151,
+      "latitude": 46.744654
+    },
+    {
+      "id": "6543",
+      "code": "654300000000",
+      "level": "prefecture",
+      "name": "阿勒泰",
+      "fullName": "阿勒泰地区",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 88.137901,
+      "latitude": 47.843621
+    },
+    {
+      "id": "659001",
+      "code": "659001000000",
+      "level": "prefecture",
+      "name": "石河子",
+      "fullName": "石河子市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 86.077557,
+      "latitude": 44.304137
+    },
+    {
+      "id": "659002",
+      "code": "659002000000",
+      "level": "prefecture",
+      "name": "阿拉尔",
+      "fullName": "阿拉尔市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 81.277747,
+      "latitude": 40.54664
+    },
+    {
+      "id": "659003",
+      "code": "659003000000",
+      "level": "prefecture",
+      "name": "图木舒克",
+      "fullName": "图木舒克市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 79.072556,
+      "latitude": 39.867219
+    },
+    {
+      "id": "659004",
+      "code": "659004000000",
+      "level": "prefecture",
+      "name": "五家渠",
+      "fullName": "五家渠市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 87.539905,
+      "latitude": 44.16544
+    },
+    {
+      "id": "659005",
+      "code": "659005000000",
+      "level": "prefecture",
+      "name": "北屯",
+      "fullName": "北屯市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 87.83132,
+      "latitude": 47.325679
+    },
+    {
+      "id": "659006",
+      "code": "659006000000",
+      "level": "prefecture",
+      "name": "铁门关",
+      "fullName": "铁门关市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 85.667791,
+      "latitude": 41.861745
+    },
+    {
+      "id": "659007",
+      "code": "659007000000",
+      "level": "prefecture",
+      "name": "双河",
+      "fullName": "双河市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 82.350469,
+      "latitude": 44.839525
+    },
+    {
+      "id": "659008",
+      "code": "659008000000",
+      "level": "prefecture",
+      "name": "可克达拉",
+      "fullName": "可克达拉市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 80.99153,
+      "latitude": 43.939257
+    },
+    {
+      "id": "659009",
+      "code": "659009000000",
+      "level": "prefecture",
+      "name": "昆玉",
+      "fullName": "昆玉市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 79.268003,
+      "latitude": 37.215483
+    },
+    {
+      "id": "659010",
+      "code": "659010000000",
+      "level": "prefecture",
+      "name": "胡杨河",
+      "fullName": "胡杨河市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 84.825117,
+      "latitude": 44.692069
+    },
+    {
+      "id": "659011",
+      "code": "659011000000",
+      "level": "prefecture",
+      "name": "新星",
+      "fullName": "新星市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 93.746689,
+      "latitude": 42.795486
+    },
+    {
+      "id": "659012",
+      "code": "659012000000",
+      "level": "prefecture",
+      "name": "白杨",
+      "fullName": "白杨市",
+      "provinceName": "新疆维吾尔自治区",
+      "longitude": 82.893994,
+      "latitude": 46.727383
+    },
+    {
+      "id": "7101",
+      "code": "710100000000",
+      "level": "prefecture",
+      "name": "台北",
+      "fullName": "台北市",
+      "provinceName": "台湾省",
+      "longitude": 121.56517,
+      "latitude": 25.037798
+    },
+    {
+      "id": "7102",
+      "code": "710200000000",
+      "level": "prefecture",
+      "name": "高雄",
+      "fullName": "高雄市",
+      "provinceName": "台湾省",
+      "longitude": 120.311922,
+      "latitude": 22.620856
+    },
+    {
+      "id": "7103",
+      "code": "710300000000",
+      "level": "prefecture",
+      "name": "台南",
+      "fullName": "台南市",
+      "provinceName": "台湾省",
+      "longitude": 120.279363,
+      "latitude": 23.172478
+    },
+    {
+      "id": "7104",
+      "code": "710400000000",
+      "level": "prefecture",
+      "name": "台中",
+      "fullName": "台中市",
+      "provinceName": "台湾省",
+      "longitude": 120.67904,
+      "latitude": 24.13862
+    },
+    {
+      "id": "7106",
+      "code": "710600000000",
+      "level": "prefecture",
+      "name": "南投",
+      "fullName": "南投县",
+      "provinceName": "台湾省",
+      "longitude": 120.83,
+      "latitude": 23.83
+    },
+    {
+      "id": "7107",
+      "code": "710700000000",
+      "level": "prefecture",
+      "name": "基隆",
+      "fullName": "基隆市",
+      "provinceName": "台湾省",
+      "longitude": 121.746248,
+      "latitude": 25.130741
+    },
+    {
+      "id": "7108",
+      "code": "710800000000",
+      "level": "prefecture",
+      "name": "新竹市",
+      "fullName": "新竹市",
+      "provinceName": "台湾省",
+      "longitude": 120.968798,
+      "latitude": 24.806738
+    },
+    {
+      "id": "7109",
+      "code": "710900000000",
+      "level": "prefecture",
+      "name": "嘉义市",
+      "fullName": "嘉义市",
+      "provinceName": "台湾省",
+      "longitude": 120.452538,
+      "latitude": 23.481568
+    },
+    {
+      "id": "7111",
+      "code": "711100000000",
+      "level": "prefecture",
+      "name": "新北",
+      "fullName": "新北市",
+      "provinceName": "台湾省",
+      "longitude": 121.465746,
+      "latitude": 25.012366
+    },
+    {
+      "id": "7112",
+      "code": "711200000000",
+      "level": "prefecture",
+      "name": "宜兰",
+      "fullName": "宜兰县",
+      "provinceName": "台湾省",
+      "longitude": 121.5,
+      "latitude": 24.6
+    },
+    {
+      "id": "7113",
+      "code": "711300000000",
+      "level": "prefecture",
+      "name": "新竹县",
+      "fullName": "新竹县",
+      "provinceName": "台湾省",
+      "longitude": 121.16,
+      "latitude": 24.6
+    },
+    {
+      "id": "7114",
+      "code": "711400000000",
+      "level": "prefecture",
+      "name": "桃园",
+      "fullName": "桃园市",
+      "provinceName": "台湾省",
+      "longitude": 121.083,
+      "latitude": 25.0
+    },
+    {
+      "id": "7115",
+      "code": "711500000000",
+      "level": "prefecture",
+      "name": "苗栗",
+      "fullName": "苗栗县",
+      "provinceName": "台湾省",
+      "longitude": 120.75,
+      "latitude": 24.5
+    },
+    {
+      "id": "7117",
+      "code": "711700000000",
+      "level": "prefecture",
+      "name": "彰化",
+      "fullName": "彰化县",
+      "provinceName": "台湾省",
+      "longitude": 120.416,
+      "latitude": 24.0
+    },
+    {
+      "id": "7119",
+      "code": "711900000000",
+      "level": "prefecture",
+      "name": "嘉义县",
+      "fullName": "嘉义县",
+      "provinceName": "台湾省",
+      "longitude": 120.3,
+      "latitude": 23.5
+    },
+    {
+      "id": "7121",
+      "code": "712100000000",
+      "level": "prefecture",
+      "name": "云林",
+      "fullName": "云林县",
+      "provinceName": "台湾省",
+      "longitude": 120.25,
+      "latitude": 23.75
+    },
+    {
+      "id": "7124",
+      "code": "712400000000",
+      "level": "prefecture",
+      "name": "屏东",
+      "fullName": "屏东县",
+      "provinceName": "台湾省",
+      "longitude": 120.487928,
+      "latitude": 22.682802
+    },
+    {
+      "id": "7125",
+      "code": "712500000000",
+      "level": "prefecture",
+      "name": "台东",
+      "fullName": "台东县",
+      "provinceName": "台湾省",
+      "longitude": 120.916,
+      "latitude": 23.0
+    },
+    {
+      "id": "7126",
+      "code": "712600000000",
+      "level": "prefecture",
+      "name": "花莲",
+      "fullName": "花莲县",
+      "provinceName": "台湾省",
+      "longitude": 121.3,
+      "latitude": 23.83
+    },
+    {
+      "id": "7127",
+      "code": "712700000000",
+      "level": "prefecture",
+      "name": "澎湖",
+      "fullName": "澎湖县",
+      "provinceName": "台湾省",
+      "longitude": 119.566417,
+      "latitude": 23.569733
+    },
+    {
+      "id": "8100",
+      "code": "810000000000",
+      "level": "prefecture",
+      "name": "香港",
+      "fullName": "香港特别行政区",
+      "provinceName": "香港特别行政区",
+      "longitude": 114.165753,
+      "latitude": 22.281096
+    },
+    {
+      "id": "8200",
+      "code": "820000000000",
+      "level": "prefecture",
+      "name": "澳门",
+      "fullName": "澳门特别行政区",
+      "provinceName": "澳门特别行政区",
+      "longitude": 113.537971,
+      "latitude": 22.18986
+    }
+  ]
+}
