@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "profiles": {
+    "ecmwf": {
+      "wind_u": {
+        "category": "wind",
+        "aliases": ["10u", "u"],
+        "typeOfLevel": ["heightAboveGround"],
+        "levels": [10]
+      },
+      "wind_v": {
+        "category": "wind",
+        "aliases": ["10v", "v"],
+        "typeOfLevel": ["heightAboveGround"],
+        "levels": [10]
+      },
+      "temperature": {
+        "category": "temperature",
+        "aliases": ["2t", "t"],
+        "typeOfLevel": ["heightAboveGround"],
+        "levels": [2]
+      },
+      "precipitation": {
+        "category": "precipitation",
+        "aliases": ["tp"],
+        "typeOfLevel": ["surface"],
+        "levels": [0]
+      },
+      "irradiance": {
+        "category": "irradiance",
+        "aliases": ["ssrd"],
+        "typeOfLevel": ["surface"],
+        "levels": [0]
+      }
+    },
+    "gfs": {
+      "wind_u": {
+        "category": "wind",
+        "aliases": ["10u", "ugrd", "u"],
+        "typeOfLevel": ["heightAboveGround"],
+        "levels": [10]
+      },
+      "wind_v": {
+        "category": "wind",
+        "aliases": ["10v", "vgrd", "v"],
+        "typeOfLevel": ["heightAboveGround"],
+        "levels": [10]
+      },
+      "temperature": {
+        "category": "temperature",
+        "aliases": ["2t", "tmp", "t"],
+        "typeOfLevel": ["heightAboveGround"],
+        "levels": [2]
+      },
+      "precipitation": {
+        "category": "precipitation",
+        "aliases": ["tp", "apcp"],
+        "typeOfLevel": ["surface"],
+        "levels": [0]
+      },
+      "irradiance": {
+        "category": "irradiance",
+        "aliases": ["sdswrf", "dswrf", "ssrd"],
+        "typeOfLevel": ["surface"],
+        "levels": [0]
+      }
+    }
+  }
+}
